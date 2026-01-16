@@ -1,0 +1,3 @@
+All Objects in File:
+  Name: humanBody, Type: MESH, Parent: None
+No Armature found in the FBX.

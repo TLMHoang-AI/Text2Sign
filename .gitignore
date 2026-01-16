@@ -1,0 +1,8 @@
+venv/
+dic/
+mp_env/
+*.webm
+env_v1/     
+*.mp4
+*.csv
+*.json
