@@ -1,0 +1,4363 @@
+page,text,image_id
+1,địa chỉ,D0001B
+1,địa chỉ,D0001N
+1,địa chỉ,D0001T
+1,tỉnh,D0002
+1,tiếp tân,D0003
+1,nhân viên,D0004
+1,Miến Điện (nước Mi-an-ma),D0005B
+1,Miến Điện (nước Mi-an-ma),D0005N
+1,Miến Điện (nước Mi-an-ma),D0005T
+1,Ma Cao,D0006
+1,Do Thái,D0007
+1,Ả Rập (nước Ả Rập),D0008
+1,phương Tây,D0009
+1,phương Đông,D0010
+1,Đu Bai (nước Đu Bai),D0011
+1,Albania (nước Albania),D0012
+1,người nước ngoài,D0013
+1,nhập khẩu,D0014
+1,Tuy Hoà,D0015
+1,Quy Nhơn,D0016
+2,hấp dẫn,D0017
+2,nổi da gà,D0018
+2,ghen tị,D0019B
+2,ghen tị,D0019N
+2,ghen tị,D0019T
+2,lung tung,D0020B
+2,lung tung,D0020N
+2,lung tung,D0020T
+2,hói đầu,D0021
+2,cười nhếch mép,D0022
+2,cười vỡ bụng,D0023
+2,tham ăn,D0024B
+2,tham ăn,D0024N
+2,tham ăn,D0024T
+2,thèm,D0026
+2,thèm rỏ dãi,D0027
+2,đứng đầu (hàng đầu),D0028
+2,thói quen,D0029B
+2,thói quen,D0029N
+2,thói quen,D0029T
+3,khuyến khích,D0030
+3,không nghe lời,D0031B
+3,không nghe lời,D0031N
+3,không nghe lời,D0031T
+3,ai cho,D0032
+3,không cho,D0033B
+3,không cho,D0033N
+3,không cho,D0033T
+3,không cần,D0034
+3,không nên,D0035B
+3,không nên,D0035N
+3,không nên,D0035T
+3,bực mình,D0036
+3,tự giác,D0037
+3,mù chữ,D0038
+3,vô tình,D0039
+3,Tết hàn thực,D0040B
+3,Tết hàn thực,D0040N
+3,Tết hàn thực,D0040T
+3,giỗ,D0041
+4,ngày Quốc tế phụ nữ 8/3,D0042B
+4,ngày Quốc tế phụ nữ 8/3,D0042N
+4,ngày Quốc tế phụ nữ 8/3,D0042T
+4,ngày giải phóng thủ đô 10/10,D0043B
+4,ngày giải phóng thủ đô 10/10,D0043N
+4,ngày giải phóng thủ đô 10/10,D0043T
+4,ngày Giải phóng miền Nam 30/4,D0044B
+4,ngày Giải phóng miền Nam 30/4,D0044N
+4,ngày Giải phóng miền Nam 30/4,D0044T
+4,ngày Người khuyết tật Việt Nam 18/4,D0045B
+4,ngày Người khuyết tật Việt Nam 18/4,D0045N
+4,ngày Người khuyết tật Việt Nam 18/4,D0045T
+4,ngày Người khuyết tật Thế giới 3/12,D0046B
+4,ngày Người khuyết tật Thế giới 3/12,D0046N
+4,ngày Người khuyết tật Thế giới 3/12,D0046T
+4,lễ Halloween 31/10,D0048B
+4,lễ Halloween 31/10,D0048N
+4,lễ Halloween 31/10,D0048T
+4,ngày Phụ nữ Việt Nam 20/10,D0049B
+4,ngày Phụ nữ Việt Nam 20/10,D0049N
+5,ngày Phụ nữ Việt Nam 20/10,D0049T
+5,ngày thương bình liệt sĩ 27/7,D0050B
+5,ngày thương bình liệt sĩ 27/7,D0050N
+5,ngày thương bình liệt sĩ 27/7,D0050T
+5,ngày giỗ tổ Hùng Vương (âm lịch 10/3),D0051B
+5,ngày giỗ tổ Hùng Vương (âm lịch 10/3),D0051N
+5,ngày giỗ tổ Hùng Vương (âm lịch 10/3),D0051T
+5,ngày Ngôn ngữ kí hiệu Quốc tế 23/9,D0052B
+5,ngày Ngôn ngữ kí hiệu Quốc tế 23/9,D0052N
+5,ngày Ngôn ngữ kí hiệu Quốc tế 23/9,D0052T
+5,tuần lễ người Điếc thế giới,D0053B
+5,tuần lễ người Điếc thế giới,D0053N
+5,tuần lễ người Điếc thế giới,D0053T
+5,ngày của Mẹ,D0054B
+5,ngày của Mẹ,D0054N
+5,ngày của Mẹ,D0054T
+5,ngày của Cha,D0055B
+5,ngày của Cha,D0055N
+5,ngày của Cha,D0055T
+5,ngày gia đình Việt Nam 28/6,D0056B
+6,ngày gia đình Việt Nam 28/6,D0056N
+6,ngày gia đình Việt Nam 28/6,D0056T
+6,ngày thầy thuốc Việt Nam,D0057B
+6,ngày thầy thuốc Việt Nam,D0057N
+6,ngày thầy thuốc Việt Nam,D0057T
+6,ngày thành lập quân đội nhân dân Việt Nam,D0058B
+6,ngày thành lập quân đội nhân dân Việt Nam,D0058N
+6,ngày thành lập quân đội nhân dân Việt Nam,D0058T
+6,con cá sấu,D0059
+6,nhầm,D0060B
+6,nhầm,D0060N
+6,nhầm,D0060T
+6,đồng bằng sông Cửu Long,D0061
+6,đồng bằng sông Hồng,D0062
+6,đồng bằng duyên hải miền Trung,D0063
+6,buồn thảm,D0064
+6,mách,D0065B
+6,mách,D0065N
+6,mách,D0065T
+6,vô duyên,D0066B
+7,vô duyên,D0066N
+7,vô duyên,D0066T
+7,ti hí mắt,D0067
+7,kịp thời,D0068
+7,bối rối,D0069
+7,hú vía,D0070
+7,suỵt,D0071
+7,suýt,D0072B
+7,suýt,D0072N
+7,suýt,D0072T
+7,cá voi,D0073
+7,cá kiếm,D0074
+7,đuôi cá,D0075
+7,đuôi chuột,D0076
+7,bít tết (bò),D0077B
+7,bít tết (bò),D0077N
+7,bít tết (bò),D0077T
+7,súp,D0078
+7,súp lơ,D0079
+7,mỳ tôm,D0080B
+8,mỳ tôm,D0080N
+8,mỳ tôm,D0080T
+8,mỳ vằn thắn,D0081B
+8,mỳ ý,D0082B
+8,mỳ ý,D0082N
+8,mỳ ý,D0082T
+8,bún mắm,D0083
+8,bún chả,D0084
+8,bún ngan,D0085
+8,bún ốc,D0086
+8,bún đậu,D0087B
+8,xôi gấc,D0088
+8,xôi gà,D0089
+8,cháo sườn,D0090
+8,cơm rang,D0091
+8,nhấn mạnh,D0092
+8,đạo diễn,D0093
+8,thí nghiệm,D0094
+8,cắm trại,D0095
+8,khả năng,D0096
+9,kỹ năng,D0097
+9,có … không?,D0098
+9,cung cấp,D0099
+9,khờ dại,D0100
+9,cực khổ,D0101
+9,may mắn,D0102
+9,từ chối,D0103B
+9,từ chối,D0103N
+9,từ chối,D0103T
+9,nấu nướng,D0104
+9,xoa đầu,D0105
+9,rực rỡ,D0107
+9,thiệp sinh nhật,D0108B
+9,thiệp sinh nhật,D0108N
+9,thiệp sinh nhật,D0108T
+9,không quen,D0109B
+9,không quen,D0109N
+9,không quen,D0109T
+9,bánh tráng,D0110
+9,tương ớt,D0111B
+10,tương ớt,D0111N
+10,tương ớt,D0111T
+10,không có,D0112
+10,không có chi,D0113
+10,dân chủ,D0114
+10,xử lý,D0115
+10,đất ruộng,D0116
+10,tinh mắt,D0117
+10,cũng vậy/cũng thế,D0118
+10,đúng không?,D0119B
+10,đúng không?,D0119N
+10,đúng không?,D0119T
+10,phải không?,D0120B
+10,phải không?,D0120N
+10,phải không?,D0120T
+10,còn bạn?,D0121
+10,cần không?,D0122B
+10,cần không?,D0122N
+10,cần không?,D0122T
+10,nên không?,D0123B
+11,nên không?,D0123N
+11,nên không?,D0123T
+11,kia,D0124
+11,nóng tính,D0125
+11,sợ không?,D0126
+11,căm thù,D0127
+11,đẹp không? (người),D0128B
+11,đẹp không? (người),D0128N
+11,đẹp không? (người),D0128T
+11,không đẹp,D0129B
+11,không đẹp,D0129N
+11,không đẹp,D0129T
+11,chúng tôi (2 người) (đại từ),D0130
+11,chúng tôi (3 người) (đại từ),D0131
+11,chúng tôi (4 người) (đại từ),D0132
+11,chúng tôi (5 người) (đại từ),D0133
+11,chúng tôi (đại từ),D0134
+11,các bạn (2 người),D0135
+11,họ (2 người) (đại từ),D0136
+11,họ (đại từ),D0137
+12,bạn yêu tôi,D0138
+12,tôi yêu bạn ấy,D0139
+12,bạn ấy yêu tôi,D0140
+12,bạn yêu bạn ấy,D0141
+12,bạn ấy yêu bạn,D0142
+12,"anh hai, anh cả",D0143B
+12,"anh hai, anh cả",D0143N
+12,"anh hai, anh cả",D0143T
+12,"chị hai, chị cả",D0144B
+12,"chị hai, chị cả",D0144N
+12,"chị hai, chị cả",D0144T
+12,quả bầu hồ lô,D0145
+12,một là,D0146
+12,hai là,D0147
+12,ba là,D0148
+12,bốn là,D0149
+12,năm là,D0150
+12,ông bà,D0151B
+12,ông bà,D0151N
+12,ông bà,D0151T
+13,chị họ,D0152B
+13,chị họ,D0152N
+13,chị họ,D0152T
+13,em họ,D0153B
+13,em họ,D0153N
+13,em họ,D0153T
+13,cháu họ,D0154B
+13,cháu họ,D0154N
+13,cháu họ,D0154T
+13,sống sót,D0155B
+13,sống sót,D0155N
+13,sống sót,D0155T
+13,thường xuyên,D0156
+13,thường xuyên,D0156B
+13,thường xuyên,D0156N
+13,thường xuyên,D0156T
+13,đi dạo,D0157B
+13,đi dạo,D0157N
+13,đi dạo,D0157T
+13,về (Sài Gòn),D0158N
+14,về 2 (Miền Bắc),D0159B
+14,về 2 (Miền Bắc),D0159T
+14,về 3 (đi về),D0160
+14,về 4 (từ nơi khác về),D0161
+14,về 5 (về nhà),D0162
+14,hẹn,D0163B
+14,hẹn,D0163N
+14,hẹn,D0163T
+14,quyến luyến,D0164
+14,hứa,D0165B
+14,hứa,D0165N
+14,hứa,D0165T
+14,cùng / với (giới từ),D0166
+14,lâu,D0167
+14,lâu,D0167B
+14,vẫn,D0168B
+14,vẫn,D0168N
+14,vẫn,D0168T
+14,mỗi ngày,D0169B
+14,mỗi ngày,D0169N
+15,mỗi ngày,D0169T
+15,hàng ngày,D0170B
+15,hàng ngày,D0170N
+15,hàng ngày,D0170T
+15,ăn vú sữa (bằng thìa),D0171
+15,ăn vú sữa,D0172
+15,hôi,D0173
+15,trông nhà,D0174
+15,chạy (động vật),D0175
+15,xe container,D0176
+15,bay nhanh (máy bay),D0177
+15,chậm chạp,D0178
+15,ngừng lại,D0179
+15,5 > 3 (Toán học),D0180
+15,2 < 6 (Toán học),D0181
+15,cung điện,D0182B
+15,cung điện,D0182N
+15,cung điện,D0182T
+15,dừng lại,D0183
+15,một ít/ một chút,D0184
+16,kẹt xe/tắc đường,D0185
+16,suy ra (Toán học),D0186
+16,thì thầm,D0187
+16,hoặc,D0188B
+16,hoặc,D0188N
+16,hoặc,D0188T
+16,muốn không?,D0189B
+16,muốn không?,D0189N
+16,muốn không?,D0189T
+16,không muốn,D0190B
+16,không muốn,D0190N
+16,không muốn,D0190T
+16,sa mạc,D0191
+16,xem,D0192B
+16,xem,D0192N
+16,xem,D0192T
+16,núi cao,D0193
+16,núi thấp,D0194
+16,đẹp không?,D0195B
+16,đẹp không?,D0195N
+17,đẹp không?,D0195T
+17,xem đã,D0196
+17,mồ hôi nhễ nhại,D0197
+17,không ngon,D0198
+17,hài lòng,D0199
+17,má hồng,D0200
+17,ngập ngừng,D0201
+17,nói ngập ngừng,D0202
+17,Võ Thị Sáu,D0203
+17,mít tinh,D0204
+17,sụp đổ,D0205
+17,thiếu thốn,D0206B
+17,thiếu thốn,D0206N
+17,thiếu thốn,D0206T
+17,xuyên Việt,D0207
+17,khổ công,D0208
+17,dám làm,D0209B
+17,dám làm,D0209N
+17,dám làm,D0209T
+17,không dám,D0210B
+18,không dám,D0210N
+18,không dám,D0210T
+18,phiền hà,D0211
+18,đèn ông sao,D0212
+18,ung thư,D0213B
+18,ung thư,D0213N
+18,ung thư,D0213T
+18,phó hiệu trưởng,D0214B
+18,phó hiệu trưởng,D0214N
+18,phó hiệu trưởng,D0214T
+18,Ô-lim-píc,D0215
+18,vòng nguyệt quế,D0216
+18,hữu nghị,D0217
+18,bắn cung tên,D0218
+18,mũi tên,D0219
+18,cung tên,D0220
+18,tận số,D0221
+18,nứt nẻ (ruộng),D0222
+18,Mã Lai (nước Ma-lai-xi-a),D0223B
+18,Mã Lai (nước Ma-lai-xi-a),D0223N
+19,Mã Lai (nước Ma-lai-xi-a),D0223T
+19,số La Mã (Toán học),D0224
+19,Long Vương,D0225
+19,đàng hoàng,D0226
+19,phân vân,D0227
+19,lau miệng,D0228
+19,chó cắn,D0229
+19,mèo cào,D0230
+19,quan hệ từ,D0231
+19,yêu nước Việt Nam,D0232
+19,quan (chức vụ),D0233
+19,đi tuần,D0234
+19,vỗ về,D0235
+19,hốt hoảng,D0236
+19,chuyện nhỏ,D0237
+19,chuyện lớn,D0238
+19,cái gùi,D0239
+19,hùng vĩ,D0240
+19,bất khuất,D0241
+19,nhưng,D0242B
+20,nhưng,D0242N
+20,nhưng,D0242T
+20,hay là (hoặc là),D0243B
+20,hay là (hoặc là),D0243N
+20,hay là (hoặc là),D0243T
+20,Thăng Long,D0244
+20,dãy núi Hoàng Liên Sơn,D0245
+20,quanh năm,D0246
+20,gấp đôi,D0247
+20,gấp ba,D0248
+20,chia đôi,D0249B
+20,chia đôi,D0249N
+20,chia đôi,D0249T
+20,chia ba,D0250B
+20,chia ba,D0250N
+20,chia ba,D0250T
+20,"đi lạc (đường, rừng..)",D0251
+20,mất (chết) (chỉ người),D0252
+20,đại sứ,D0253
+20,cảnh giác,D0254
+21,giám sát,D0255
+21,quan sát,D0256
+21,ăn vụng,D0257
+21,xảy ra,D0258
+21,dự án,D0259
+21,đầu tư,D0260
+21,năn nỉ,D0261
+21,háo hức,D0262
+21,rắc rối,D0263
+21,tải về,D0264
+21,nhõng nhẽo,D0265
+21,hên/gặp may,D0266
+21,đen đủi,D0267B
+21,xui xẻo,D0268N
+21,long lanh (mắt),D0269
+21,lạnh lùng,D0270B
+21,lạnh lùng,D0270N
+21,lạnh lùng,D0270T
+21,dỗi,D0271B
+21,dỗi,D0271N
+22,dỗi,D0271T
+22,liếc nhìn,D0272B
+22,liếc nhìn,D0272N
+22,liếc nhìn,D0272T
+22,nhổ tóc,D0273
+22,nhổ râu,D0274
+22,nhổ lông mày,D0275
+22,cắt lông mũi,D0276
+22,nhổ răng,D0277
+22,răng hô,D0278
+22,răng khểnh,D0279
+22,kháu khỉnh,D0280
+22,mọc tóc,D0281
+22,mọc râu,D0282
+22,mọc ria mép,D0283
+22,Cô vy (covid),D0284
+22,Cố đô Huế,D0285
+22,cách ly,D0286
+22,giãn cách xã hội,D0287
+22,tương lai,D0288
+23,ria mép,D0289
+23,trong khoảng,D0290
+23,trốn tìm,D0291
+23,nhảy bao bố,D0292
+23,nhảy lò cò,D0293
+23,kéo co,D0294
+23,hội thoại,D0295
+23,lý do,D0296
+23,lớn hơn 1 (Toán học),D0297
+23,lớn hơn 2 (Toán học),D0298
+23,2 < 5 (Toán học),D0299
+23,tỉnh táo,D0300
+23,nhộn nhịp (đông người),D0301
+23,áo kẻ sọc,D0302
+23,đất nước bị chia cắt (Việt Nam),D0303
+23,thống nhất đất nước,D0304
+23,khoáng sản,D0305
+23,thương mại,D0306
+23,công nghiệp,D0307B
+23,công nghiệp,D0307N
+24,công nghiệp,D0307T
+24,dân tộc Chăm,D0308
+24,dân tộc Mường,D0309
+24,dân tộc Khơ me,D0310
+24,dân tộc Thái,D0311
+24,dân tộc Mông,D0312
+24,nhà rông,D0313
+24,lãng phí,D0314
+24,tiến bộ,D0315
+24,Lượm,D0316
+24,cứu sống,D0317
+24,máy xúc,D0318
+24,cảng Hải Phòng,D0319
+24,cảng Sài Gòn,D0320
+24,kim cương,D0321
+24,phân biệt,D0322
+24,không bình đẳng,D0323
+24,đùm bọc,D0324
+24,khởi nghiệp,D0325
+24,vải lụa,D0326B
+25,vải lụa,D0326N
+25,vải lụa,D0326T
+25,lượt đi,D0327
+25,lượt về (trong thể thao),D0328
+25,rau diếp cá,D0329
+25,rau ngò/rau mùi,D0330
+25,thao thức,D0331
+25,thâm quầng mắt,D0332
+25,tự hào,D0333
+25,quyên góp,D0334
+25,chia rẽ,D0335
+25,tự trọng,D0336
+25,gian dối,D0337
+25,ăn bám,D0338
+25,tuyên truyền,D0339
+25,thịnh vượng,D0340
+25,lấm lem,D0341
+25,ham chơi,D0342B
+25,ham chơi,D0342N
+25,ham chơi,D0342T
+26,đánh cầu lông,D0343
+26,cánh buồm,D0344
+26,cầu Thê Húc (Hồ Gươm),D0345
+26,da trắng,D0346B
+26,da trắng,D0346N
+26,da trắng,D0346T
+26,da ngăm (nước da ngăm đen),D0347B
+26,da ngăm (nước da ngăm đen),D0347N
+26,da ngăm (nước da ngăm đen),D0347T
+26,tuần trăng mật,D0348
+26,năm tới,D0349
+26,Hoãn,D0350
+26,huỷ,D0351
+26,phụ thuộc,D0352
+26,thuộc địa,D0353
+26,tẩy chay,D0354
+26,đau mắt,D0355
+26,đau bụng,D0356
+26,đau tay,D0357
+26,đau chân,D0358
+27,đau tai,D0359
+27,phẫu thuật tay,D0360
+27,phẫu thuật chân,D0361
+27,phẫu thuật mắt,D0362
+27,phẫu thuật mũi,D0363
+27,phẫu thuật cổ,D0364
+27,phẫu thuật bụng,D0365
+27,bệnh phong/cùi,D0366
+27,hội chứng Đao - Down,D0367
+27,bệnh Đao - Down,D03671
+27,mệt mỏi,D0369
+27,mệt không?,D0370
+27,đói không?,D0371
+27,cả ngày,D0372
+27,chiên/rán (1)(2),D0373
+27,nướng,D0374
+27,luộc,D0375
+27,xào,D0376
+27,lẩu,D0377
+27,gỏi/nộm,D0378
+28,nhà kho,D0379
+28,hấp,D0380
+28,thối,D0381
+28,thiu,D0382
+28,nguội,D0383
+28,ngán,D0384
+28,tôm hùm,D0385
+28,cua đồng,D0386
+28,con hàu,D0387
+28,hải sản,D0388
+28,vịt quay,D0389
+28,gà nướng lu,D0390
+28,bánh hamburger,D0391
+28,bánh sandwich,D0392
+28,bánh canh,D0393
+28,miến,D0394
+28,"nước ép (cam, cà chua,..)",D0395
+28,nước ép trái cây,D0396B
+28,nước ép trái cây,D0396N
+28,nước ép trái cây,D0396T
+29,"sinh tố (bơ, dâu,..)",D0397
+29,vắt chanh,D0398
+29,mía,D0399
+29,chanh đá,D0400
+29,chanh nóng,D0401
+29,chanh muối,D0402
+29,trà đá,D0403
+29,trà nóng,D0404
+29,trà sữa,D0405
+29,Socola,D0406
+29,Cocacola,D0407
+29,7up,D0408
+29,một tiết học,D0409
+29,một tiếng,D0410B
+29,một tiếng,D0410N
+29,một tiếng,D0410T
+29,chung tay,D0411
+29,rửa chân,D0412
+29,rửa mặt,D0413
+29,đánh răng,D0414
+30,tuần này,D0416B
+30,tuần này,D0416N
+30,tuần này,D0416T
+30,tuần sau,D0417B
+30,tuần sau,D0417N
+30,tuần sau,D0417T
+30,tuần trước,D0418B
+30,tuần trước,D0418N
+30,tuần trước,D0418T
+30,cuối tuần,D0419
+30,cuối tháng,D0420
+30,cuối năm,D0421
+30,mục tiêu,D0422
+30,sinh đôi,D0423B
+30,sinh đôi,D0423N
+30,sinh đôi,D0423T
+30,đôi/cặp,D0424
+30,Đảng,D0425
+30,mô tả,D0426
+30,mũm mĩm,D0427
+31,tóc dài,D0428
+31,tóc ngắn,D0429B
+31,tóc ngắn,D0429N
+31,tóc ngắn,D0429T
+31,tổng kết/bế giảng,D0430B
+31,tổng kết/bế giảng,D0430N
+31,tổng kết/bế giảng,D0430T
+31,lốc xoáy,D0431
+31,tay chân sạch sẽ,D0432B
+31,tay chân sạch sẽ,D0432N
+31,tay chân sạch sẽ,D0432T
+31,nhắm mắt,D0433
+31,sờ,D0434
+31,cây nến,D0435
+31,dịu dàng,D0436
+31,đùa,D0437B
+31,đùa,D0437N
+31,đùa,D0437T
+31,làm được,D0438
+31,dòng sông chảy,D0439
+32,ăn đủ,D0440
+32,ăn vừa,D0441
+32,ăn ít,D0442
+32,đồ uống,D0443
+32,đồ ăn,D0444
+32,trang điểm,D0445
+32,đau mắt đỏ,D0446
+32,cái vợt cá,D0447
+32,vợt cầu lông,D0448
+32,con vượn,D0449
+32,thắp đèn,D0450
+32,góp tiền,D0451
+32,họp nhóm,D0452B
+32,họp nhóm,D0452N
+32,họp nhóm,D0452T
+32,nhút nhát,D0453
+32,luộc rau,D0455
+32,muối,D0456
+32,nước mắm,D0457
+32,thoăn thoắt,D0458
+33,nghênh nghênh (đầu),D0459
+33,đua đòi,D0460
+33,bình sữa (em bé),D0461
+33,đòi,D0462
+33,đòi hỏi,D0463
+33,trẻ con/con nít,D0464B
+33,trẻ con/con nít,D0464N
+33,trẻ con/con nít,D0464T
+33,duy nhất,D0465
+33,cạnh tranh,D0466
+33,hoa hậu,D0467
+33,cái neo,D0468
+33,phóng viên,D0469
+33,nhà văn hóa,D0470B
+33,nhà văn hóa,D0470N
+33,nhà văn hóa,D0470T
+33,chùa Yên Tử,D0471
+33,chõ xôi,D0472
+33,cây cọ,D0473
+33,khu vực cách ly,D0474
+34,phong toả,D0475
+34,thung lũng,D0477
+34,địa hình,D0478
+34,Kim Đồng,D0479
+34,Thánh Gióng,D0480
+34,hoa giấy,D0481
+34,hoa dâm bụt,D0482
+34,kết luận,D0483
+34,internet,D0484
+34,nhà vệ sinh,D0485
+34,đi vệ sinh,D0486
+34,hoa mai,D0488
+34,a,D0489
+34,ă,D0490B
+34,ă,D0490N
+34,ă,D0490T
+34,â,D0491B
+34,â,D0491N
+34,â,D0491T
+34,b,D0492
+35,c,D0493
+35,d,D0494
+35,đ,D0495
+35,e,D0496
+35,ê,D0497B
+35,ê,D0497N
+35,ê,D0497T
+35,g,D0498B
+35,g,D0498N
+35,h,D0500B
+35,h,D0500N
+35,h,D0500T
+35,i,D0501
+35,k,D0502
+35,l,D0503
+35,m,D0504
+35,n,D0505
+35,o,D0506
+35,ô,D0507B
+35,ô,D0507N
+36,ô,D0507T
+36,ơ,D0508N
+36,p,D0509B
+36,p,D0509N
+36,p,D0509T
+36,q,D0510
+36,r,D0511
+36,s,D0512
+36,t,D0513B
+36,t,D0513N
+36,t,D0513T
+36,u,D0514
+36,ư,D0515N
+36,v,D0516
+36,x,D0517B
+36,x,D0517N
+36,x,D0517T
+36,y,D0518N
+36,z,D0519
+36,f,D0521
+37,j,D0522
+37,w,D0523
+37,dấu huyền,D0524B
+37,dấu huyền,D0524N
+37,dấu huyền,D0524T
+37,dấu sắc,D0525B
+37,dấu sắc,D0525N
+37,dấu sắc,D0525T
+37,dấu hỏi,D0526B
+37,dấu hỏi,D0526N
+37,dấu hỏi,D0526T
+37,dấu ngã,D0527B
+37,dấu ngã,D0527N
+37,dấu ngã,D0527T
+37,dấu nặng,D0528
+37,0 (số không),D0529
+37,1,D0530
+37,2,D0531
+37,3,D0532
+37,4,D0533
+38,5,D0534
+38,6,D0535B
+38,6,D0535N
+38,6,D0535T
+38,7,D0536
+38,8,D0537
+38,9,D0538
+38,10,D0539
+38,11,D0540B
+38,11,D0540N
+38,11,D0540T
+38,12,D0541B
+38,12,D0541N
+38,12,D0541T
+38,23,D0542B
+38,23,D0542N
+38,23,D0542T
+38,33,D0543N
+38,33,D0543T
+38,40,D0544
+39,80,D0545
+39,90,D0546N
+39,100,D0547
+39,1000 (một nghìn),D0548N
+39,5000 (năm nghìn),D0549B
+39,5000 (năm nghìn),D0549T
+39,10 000 (mười nghìn),D0550B
+39,10 000 (mười nghìn),D0550N
+39,10 000 (mười nghìn),D0550T
+39,1 000 000 (một triệu),D0551B
+39,1 000 000 (một triệu),D0551N
+39,1 000 000 (một triệu),D0551T
+39,1 000 000 000 (một tỉ),D0552B
+39,1 000 000 000 (một tỉ),D0552N
+39,1 000 000 000 (một tỉ),D0552T
+39,ăn cóc,D0600
+39,ác,W00000
+39,ác cảm,W00001
+39,ác độc,W00002
+39,ác mộng,W00003
+40,ai,W00004B
+40,ai,W00004N
+40,ai,W00004T
+40,An Giang,W00006
+40,an ninh,W00007
+40,Anh (nước Anh),W00009B
+40,Anh (nước Anh),W00009N
+40,Anh (nước Anh),W00009T
+40,anh chị,W00010B
+40,anh chị em,W00011
+40,anh dũng,W00012B
+40,anh dũng,W00012N
+40,anh dũng,W00012T
+40,anh em,W00013B
+40,anh em,W00013N
+40,anh em,W00013T
+40,anh họ,W00014N
+40,anh họ,W00014T
+40,anh hùng,W00015
+40,anh rể,W00018B
+41,anh rể,W00018N
+41,anh rể,W00018T
+41,anh ruột,W00019B
+41,anh ruột,W00019N
+41,anh ruột,W00019T
+41,anh vợ,W00020
+41,sáng,W00024
+41,ao chuôm,W00026
+41,ảo thuật,W00027
+41,áo,W00028
+41,áo ấm,W00029
+41,áo cánh,W00030
+41,áo đồng phục,W00032B
+41,áo đồng phục,W00032N
+41,áo đồng phục,W00032T
+41,áo len,W00033
+41,áo phao,W00034
+41,áo phông,W00035B
+41,áo phông,W00035N
+41,áo phông,W00035T
+42,áp phích,W00036
+42,ăn diện,W00039
+42,ăn hối lộ,W00040
+42,ăn uống,W00042
+42,ăn vặt,W00043
+42,ăn xin,W00044
+42,âm thanh,W00045
+42,ầm ĩ,W00048
+42,ẩm mốc,W00049
+42,ẩm ướt,W00050
+42,ấm áp,W00051
+42,ấm đun nước,W00052
+42,ấm no,W00053
+42,ấm trà,W00055
+42,ân hận,W00057B
+42,ân hận,W00057N
+42,ân hận,W00057T
+42,ấn,W00059
+42,ấn tượng,W00061
+42,Âu Cơ,W00062
+43,Ba chân bốn cẳng,W00065
+43,Bà Nà,W00067
+43,Bà Rịa - Vũng Tàu,W00068
+43,triệu phú,W00069
+43,Bạc Liêu,W00070
+43,bài báo,W00071
+43,bài thơ,W00075B
+43,bài thơ,W00075N
+43,bài thơ,W00075T
+43,hệ bài tiết,W00076
+43,Bãi biển Vũng Tàu,W00079
+43,bãi cát,W00081
+43,bãi cỏ,W00082
+43,bãi đỗ xe (ô tô),W00083
+43,bãi tắm,W00084
+43,ban đêm,W00086B
+43,ban đêm,W00086N
+43,ban đêm,W00086T
+43,ban giám hiệu,W00087
+43,ban ngày,W00089
+44,bàn bạc,W00091
+44,bàn chải đánh răng,W00092
+44,bàn chân,W00093
+44,bàn ghế,W00094
+44,bàn là,W00095
+44,bàn phím (máy vi tính),W00096
+44,bàn tay,W00097
+44,bàn tán,W00098
+44,bản đồ Việt Nam,W00099B
+44,bản đồ Việt Nam,W00099N
+44,bản đồ Việt Nam,W00099T
+44,bản làng,W00100
+44,bản lề,W00101
+44,bản nhạc,W00102
+44,bản sao (chỉ người),W00103
+44,bản thân,W00104
+44,bán buôn,W00105
+44,bán đảo,W00106
+44,bán hàng,W00107B
+44,bán hàng,W00107N
+45,bán hàng,W00107T
+45,bán kính (hình tròn),W00108
+45,bạn,W00110B
+45,bạn,W00110N
+45,bạn,W00110T
+45,bạn gái,W00111B
+45,bạn gái,W00111N
+45,bạn gái,W00111T
+45,bạn trai,W00112B
+45,bạn trai,W00112N
+45,bạn trai,W00112T
+45,bảng học sinh,W00113
+45,bảng chia,W00115N
+45,bảng chia,W00115T
+45,bảng chỉ dẫn,W00116
+45,bảng chữ cái ngón tay,W00118
+45,bảng cộng,W00119B
+45,bảng cộng,W00119N
+45,bảng cộng,W00119T
+45,bảng cửu chương,W00120
+46,bảng đen,W00121B
+46,bảng đen,W00121N
+46,bảng đen,W00121T
+46,hãng máy bay,W00122
+46,bảng màu,W00123B
+46,bảng nhân,W00124B
+46,bảng nhân,W00124N
+46,bảng nhân,W00124T
+46,hãng xe máy,W00125
+46,bảng trừ,W00126B
+46,bảng trừ,W00126N
+46,bảng trừ,W00126T
+46,bánh bột lọc,W00127
+46,bánh cốm,W00128
+46,bánh cuốn,W00129B
+46,bánh cuốn,W00129N
+46,bánh cuốn,W00129T
+46,bánh Trung Thu,W00130
+46,bánh đa,W00131
+46,bánh đúc,W00132
+47,bánh gai,W00133
+47,bánh giầy,W00134
+47,bánh giò,W00135
+47,bánh gối,W00136
+47,bánh mì,W00137B
+47,bánh mì,W00137N
+47,bánh mì,W00137T
+47,bánh pizza,W00140
+47,bánh pía,W00141
+47,hãng tàu thuyền,W00142
+47,bánh xe,W00144
+47,bao giờ?,W00145B
+47,bao giờ?,W00145N
+47,bao giờ?,W00145T
+47,bao la,W00146
+47,bao nhiêu?,W00147
+47,bao tay (dùng cho trẻ sơ sinh),W00150
+47,bảo đảm,W00152
+47,bảo hiểm,W00153
+47,lưu,W00155
+48,bảo tàng,W00156
+48,bảo thủ,W00157
+48,tồn tại,W00158
+48,bảo vệ môi trường,W00159B
+48,bảo vệ môi trường,W00159N
+48,bảo vệ môi trường,W00159T
+48,báo (con báo),W00160B
+48,báo (con báo),W00160N
+48,báo (con báo),W00160T
+48,báo cáo,W00161
+48,báo động,W00163
+48,báo thù,W00166
+48,bát,W00170
+48,bát hương,W00171
+48,bát ngát,W00172
+48,làng gốm Bát Tràng,W00173
+48,bay,W00174
+48,xì hơi (đánh rắm),W00175
+48,xì hơi (đánh rắm),W00175N
+48,bay liệng (bay lượn),W00176
+49,bắc bán cầu,W00179
+49,Bắc bộ,W00181
+49,Bắc Giang,W00182
+49,Bắc Kạn,W00183
+49,bắc nam,W00184N
+49,bắc nam,W00184T
+49,Bắc Ninh,W00185
+49,bắn bi,W00186B
+49,bắn bi,W00186N
+49,bắn bi,W00186T
+49,bắn súng,W00187
+49,băng bó,W00188
+49,băng chuyền,W00189
+49,băng dính,W00190
+49,băng giá,W00191
+49,băng hình,W00192
+49,Băng-la-đét (nước Băng-la-đét),W00193
+49,bằng,W00194
+49,bằng phẳng,W00195
+49,bắp ngô,W00196B
+50,bắp ngô,W00196N
+50,bắp ngô,W00196T
+50,bắt,W00197
+50,bắt đền,W00198
+50,bắt đền,W00198B
+50,bắt đền,W00198N
+50,bắt giữ,W00199
+50,bắt nạt,W00200
+50,bắt tay,W00202
+50,bậc thang,W00203
+50,bập bênh,W00205
+50,bất động,W00206
+50,bất hiếu,W00207
+50,bật đèn,W00209
+50,bật lửa,W00210
+50,bầu trời,W00212
+50,bẫy chim,W00213
+50,bẫy chuột (hành động),W00214B
+50,bẫy chuột (hành động),W00214N
+50,bẫy chuột (hành động),W00214T
+51,bẫy chuột (dụng cụ),W00215
+51,bẻ ngô,W00216B
+51,bẻ ngô,W00216N
+51,bẻ ngô,W00216T
+51,bé gái,W00217
+51,bé hơn,W00218
+51,bé loắt choắt,W00219
+51,bé trai,W00220B
+51,bé trai,W00220N
+51,bé trai,W00220T
+51,béo,W00225
+51,bê tông,W00228
+51,bể bơi,W00230
+51,bể cá,W00231
+51,bế em,W00232
+51,bệ hạ,W00234B
+51,bệ hạ,W00234T
+51,bệ xí,W00235
+51,bên cạnh,W00236
+51,bên cạnh,W00236N
+52,bên dưới,W00237
+52,bên phải,W00238
+52,bên trái,W00239
+52,bên trên,W00240
+52,bên trong,W00241
+52,bến phà,W00242
+52,bến tàu,W00243
+52,Bến Tre,W00244
+52,bến xe,W00245
+52,bênh vực,W00246
+52,bệnh thủy đậu,W00247
+52,bệnh nhân,W00248
+52,bệnh tật,W00249
+52,bí ngô,W00252
+52,bị động,W00253
+52,bìa sách,W00254
+52,bìa vở,W00255B
+52,bìa vở,W00255N
+52,bìa vở,W00255T
+52,bịa đặt,W00256
+53,hóa đơn,W00258
+53,biển đông,W00260
+53,biển hiệu,W00261
+53,biến đổi,W00262N
+53,biện pháp,W00263
+53,biểu đồ,W00265
+53,biểu đồ cột,W00266
+53,biểu đồ hình quạt,W00267
+53,biểu thị,W00270
+53,biểu thức,W00271
+53,bím tóc đuôi sam,W00273
+53,bình an,W00274B
+53,bình an,W00274N
+53,bình an,W00274T
+53,Bình Dương,W00276
+53,Bình Định,W00277
+53,bình minh,W00279
+53,bình phương,W00282
+53,Bình Phước,W00283
+53,Bình Thuận,W00285
+54,bình thường,W00286B
+54,bình thường,W00286N
+54,bình thường,W00286T
+54,bít tất,W00287
+54,bò,W00288
+54,bò sát,W00289
+54,bò tót,W00290
+54,bỏ hoang,W00292
+54,bỏ phiếu,W00293
+54,bỏ qua,W00294
+54,bỏ rơi,W00295
+54,bó đũa,W00297
+54,bó hoa,W00298
+54,bóc lột,W00299
+54,bóc vỏ,W00300
+54,bọc sách,W00301
+54,bom đạn,W00302
+54,bom nguyên tử,W00303
+54,bón phân,W00304B
+54,bón phân,W00304N
+55,bón phân,W00304T
+55,bỏng,W00305
+55,bỏng ngô,W00306
+55,bóng bay,W00308
+55,boong tàu,W00312
+55,bọt biển,W00313
+55,bọt xà phòng,W00314
+55,bồ kết,W00315
+55,bổ ích,W00316
+55,bổ ngữ,W00317
+55,bổ trợ,W00318
+55,bố trí,W00320
+55,bộ truyện,W00321
+55,bốc vác,W00322
+55,bố,W00325
+55,bố dượng,W00326B
+55,bố dượng,W00326N
+55,bố dượng,W00326T
+55,bố mẹ,W00327
+55,bộ đội,W00328B
+56,bộ đội,W00328N
+56,bộ đội,W00328T
+56,bộ sách,W00329
+56,bốc hơi,W00330
+56,bốc thăm,W00331
+56,bồi bàn,W00332
+56,bồi thường,W00333
+56,bồn hoa,W00334
+56,bồn rửa bát,W00335
+56,bông hoa,W00336B
+56,bông hoa,W00336N
+56,bông hoa,W00336T
+56,bốt cảnh sát,W00337B
+56,bốt cảnh sát,W00337N
+56,bốt cảnh sát,W00337T
+56,bốt điện,W00338B
+56,bốt điện,W00338N
+56,bốt điện,W00338T
+56,bột giặt,W00340
+56,bột màu,W00341B
+57,bột màu,W00341N
+57,bột màu,W00341T
+57,bột ngọt,W00342N
+57,bột ngọt,W00342T
+57,bờ biển,W00344
+57,bờ rào,W00345
+57,bờ ruộng,W00346
+57,bơi,W00347
+57,bơi lội,W00348
+57,bơm (cái bơm),W00349
+57,bơm nước,W00350
+57,bơm xe,W00351
+57,bờm tóc,W00352
+57,bớt,W00353
+57,bớt đi,W00354
+57,Bra-xin (nước Bra-xin),W00355B
+57,Bra-xin (nước Bra-xin),W00355N
+57,Bra-xin (nước Bra-xin),W00355T
+57,Bru-nây (nước Bru-nây),W00356B
+57,Bru-nây (nước Bru-nây),W00356N
+58,Bru-nây (nước Bru-nây),W00356T
+58,cỏ,W00357B
+58,cỏ,W00357N
+58,cỏ,W00357T
+58,bụi đời,W00358
+58,bụi phấn,W00359B
+58,bụi phấn,W00359N
+58,bụi phấn,W00359T
+58,Bun-ga-ri (nước Bun-ga-ri),W00360
+58,bùn,W00361
+58,bụng,W00362
+58,buộc dây,W00363
+58,buộc tóc,W00364
+58,buổi chiều,W00366
+58,buổi đêm,W00367B
+58,buổi đêm,W00367N
+58,buổi đêm,W00367T
+58,buổi sáng,W00368B
+58,buổi sáng,W00368N
+58,buổi sáng,W00368T
+59,buổi tối,W00369B
+59,buổi tối,W00369N
+59,buổi tối,W00369T
+59,buổi trưa,W00370B
+59,buổi trưa,W00370N
+59,buổi trưa,W00370T
+59,buôn làng,W00371
+59,buồn nôn,W00372
+59,buông màn,W00374B
+59,buông màn,W00374N
+59,buông màn,W00374T
+59,buồng trứng,W00377
+59,búp bê,W00378
+59,bút,W00380
+59,bút bi,W00381
+59,bút dạ,W00382
+59,bút màu,W00383B
+59,bút màu,W00383N
+59,bút màu,W00383T
+59,bút máy,W00384
+60,bữa cơm,W00385
+60,bức tranh,W00386B
+60,bức tranh,W00386N
+60,bức tranh,W00386T
+60,bức tường,W00387
+60,bước,W00388
+60,bước chân,W00389
+60,bướng bỉnh,W00390N
+60,bướng bỉnh,W00390T
+60,bưu tá,W00393
+60,ca,W00395
+60,ca nô,W00396
+60,Cà Mau,W00397
+60,cá kho,W00398B
+60,cá kho,W00398N
+60,cá kho,W00398T
+60,các bạn,W00400
+60,cãi nhau,W00401
+60,cái bè,W00402
+60,cái gương,W00404B
+61,cái gương,W00404N
+61,cái gương,W00404T
+61,cái nhíp,W00405
+61,cái túi,W00406
+61,Cam-pu-chia (nước Cam-pu-chia),W00407B
+61,Cam-pu-chia (nước Cam-pu-chia),W00407N
+61,Cam-pu-chia (nước Cam-pu-chia),W00407T
+61,cảnh vật,W00409
+61,cánh tay,W00410
+61,cạnh,W00411
+61,cạnh bên (toán),W00412
+61,cạnh đáy,W00413
+61,cạnh đối diện,W00414
+61,cao (người),W00415
+61,cao (vật),W004151
+61,cao (nhà),W004152
+61,cao (núi),W004153
+61,Cao Bằng,W00417
+61,cao độ,W00418
+61,cao nguyên,W00419
+62,cao quý,W00420
+62,cao tầng,W00421
+62,cao thấp,W00422
+62,cao tốc,W00423
+62,cát,W00424
+62,cau có,W00425
+62,cày,W00426
+62,cày ruộng,W00427
+62,cặp sách,W00428
+62,cặp tóc,W00429
+62,cắt nhau,W00430
+62,cần khởi động,W00431
+62,cấp cứu,W00432
+62,cấp dưỡng,W00433
+62,cất giấu,W00434
+62,cất giữ,W00435
+62,cất tiếng khóc,W00436
+62,cất tiếng nói,W00437
+62,câu cá,W00438
+62,câu chuyện,W00439
+63,câu đố,W00440
+63,câu đối,W00441
+63,câu đơn,W00442
+63,câu ghép,W00443
+63,câu thơ,W00444B
+63,câu thơ,W00444N
+63,câu thơ,W00444T
+63,câu văn,W00445
+63,cầu (cây cầu),W00446
+63,cầu cứu,W00447
+63,cầu giao,W00448
+63,cầu kì,W00449
+63,cầu nguyện,W00450
+63,cầu thủ,W00451
+63,cầu tre,W00452
+63,cáp treo,W00453
+63,cầu trượt,W00454
+63,cầu vượt,W00455
+63,cây ăn quả,W00456B
+63,cây ăn quả,W00456N
+64,cây ăn quả,W00456T
+64,cây bàng,W00457B
+64,cây bàng,W00457T
+64,cây cổ thụ,W00459B
+64,cây cổ thụ,W00459N
+64,cây cổ thụ,W00459T
+64,cây cối,W00460
+64,cây đa,W00462
+64,cây gỗ,W00464
+64,cây khế,W00465
+64,cây ngô,W00469B
+64,cây ngô,W00469N
+64,cây ngô,W00469T
+64,cây phượng,W00470B
+64,cây phượng,W00470N
+64,cây phượng,W00470T
+64,cây sả,W00471
+64,cây số,W00473
+64,cây thân gỗ,W00474B
+64,cây thân gỗ,W00474N
+65,cây thân gỗ,W00474T
+65,cây tre,W00476
+65,cây trồng,W00477
+65,cây xanh,W00478
+65,cấy,W00479
+65,cấy lúa,W00480
+65,cha,W00481
+65,cha mẹ,W00482
+65,chả cá,W00484B
+65,chả cá,W00484N
+65,chả cá,W00484T
+65,chai,W00485
+65,chai nước,W00486
+65,chàng trai,W00488
+65,chào,W00489
+65,chào cờ,W00490
+65,chào mừng,W00492
+65,chảo,W00493B
+65,chảo,W00493N
+65,chảo,W00493T
+66,chát,W00494
+66,cháu gái,W00495B
+66,cháu gái,W00495N
+66,cháu gái,W00495T
+66,cháu ngoại,W00496B
+66,cháu ngoại,W00496N
+66,cháu ngoại,W00496T
+66,cháu nội,W00497B
+66,cháu nội,W00497N
+66,cháu nội,W00497T
+66,cháu trai,W00498B
+66,cháu trai,W00498N
+66,chày,W00499
+66,cháy rừng,W00500
+66,chạy,W00501
+66,chạy bàn,W00502
+66,chạy chậm,W00503
+66,chạy nhanh,W00504
+66,chú ( người),W00506
+66,chăm học,W00507
+67,chăm sóc sức khỏe,W00508B
+67,chăm sóc sức khỏe,W00508N
+67,chăm sóc sức khỏe,W00508T
+67,chăn (cái chăn),W00509B
+67,chăn (cái chăn),W00509N
+67,chăn (cái chăn),W00509T
+67,chăn nuôi,W00510B
+67,chăn nuôi,W00510N
+67,chăn nuôi,W00510T
+67,chặn,W00512
+67,chặt,W00513B
+67,chặt,W00513N
+67,chặt,W00513T
+67,chặt chẽ,W00514
+67,châm chọc,W00515
+67,châm cứu,W00516B
+67,châm cứu,W00516N
+67,châm cứu,W00516T
+67,chấm dứt,W00519
+67,chấm điểm,W00520
+68,chân dung,W00522
+68,chân đất,W00523
+68,chân tay,W00525
+68,chất dẻo,W00529
+68,chất đốt,W00530
+68,chất độc,W00531
+68,chất độc màu da cam,W00533
+68,chất hữu cơ,W00534
+68,chất lỏng,W00536
+68,chất lượng,W00537
+68,chất rắn,W00538
+68,chất thải,W00539
+68,chật chội,W00540
+68,Châu Á Thái Bình Dương,W00542
+68,Châu Đại Dương,W00544
+68,chậu,W00545
+68,che chở,W00546
+68,che phủ,W00547
+68,chè đỗ đỏ,W00548
+68,chém,W00550
+69,chen lấn,W00551
+69,chèn ép,W00552
+69,chén,W00553
+69,chèo thuyền,W00554
+69,chép bài,W00555
+69,tạo thành,W00559
+69,chi hội,W00561
+69,khó tiêu,W00562
+69,chi tiết,W00563
+69,chỉ,W00564
+69,chỉ dẫn,W00565
+69,chỉ huy,W00567
+69,chỉ khâu,W00568
+69,đường chỉ tay,W00569
+69,chị,W00570B
+69,chị,W00570N
+69,chị,W00570T
+69,chị chồng,W00571B
+69,chị chồng,W00571N
+69,chị dâu,W00572
+70,Chi-lê (nước Chi-lê),W00573
+70,chia,W00575B
+70,chia,W00575N
+70,chia,W00575T
+70,chia cắt,W00577
+70,chia đều,W00578
+70,chia hết,W00579
+70,chia phần,W00580
+70,chia sẻ,W00581
+70,chia tay,W00582
+70,chìa khóa,W00583
+70,chiếc gối,W00584B
+70,chiếc gối,W00584N
+70,chiếc gối,W00584T
+70,chiếm đoạt,W00585
+70,chiến khu,W00588
+70,sĩ quan,W00590
+70,chiến thắng,W00591
+70,chiêng,W00593
+70,chiều cao,W00594
+71,chiều dài,W00595
+71,chiều rộng,W00596
+71,chiều tối,W00597
+71,chiếu,W00598
+71,chiếu,W00598B
+71,chiếu,W00598T
+71,chiếu phim,W00599
+71,cá mập,W00601
+71,chim bồ câu,W00602
+71,chim chào mào,W00603
+71,chim chích chòe,W00604
+71,chim chóc,W00605
+71,chim đại bàng,W00606
+71,chim gõ kiến,W00608
+71,chim phượng hoàng,W00609
+71,chim sâu,W00610
+71,chim sẻ,W00611
+71,chim sơn ca,W00612
+71,chim yến,W00614
+71,chỉnh sửa,W00615
+72,chín,W00616
+72,chính phủ,W00617B
+72,chính phủ,W00617T
+72,chính quyền,W00618
+72,chính tả,W00619
+72,chính xác,W00620B
+72,chính xác,W00620N
+72,chính xác,W00620T
+72,chó sói,W00623
+72,chó xù,W00624
+72,chọi gà,W00625
+72,chọi trâu,W00626
+72,chọn lọc,W00628
+72,chọn lựa,W00629
+72,chong chóng,W00630
+72,chồi non,W00632
+72,chống đối,W00633B
+72,chống đối,W00633N
+72,chống đối,W00633T
+72,chợ Bến Thành,W00634
+73,chợ nổi,W00635
+73,chợ nổi Cái Bè,W00636
+73,chợ nổi Cái Răng,W00637
+73,luân phiên,W00638
+73,luân phiên,W00638N
+73,chơi,W00639B
+73,chơi,W00639T
+73,chớp mắt,W00640
+73,chu vi,W00641
+73,chủ đề,W00642
+73,chủ động,W00644
+73,chủ nghĩa xã hội,W00645
+73,chủ ngữ,W00646
+73,chủ nhiệm,W00647
+73,nước tới chân mới nhảy,W00648
+73,chủ tịch,W00649B
+73,chủ tịch,W00649N
+73,chủ tịch,W00649T
+73,chú hề,W00650
+73,chú rể,W00651
+74,chú tễu,W00652
+74,thích nghi,W00653
+74,chú ý,W00654
+74,chùa,W00655B
+74,chùa,W00655N
+74,chùa,W00655T
+74,chùa Hương,W00657
+74,chùa Một Cột,W00658
+74,chuẩn bị,W00662B
+74,chuẩn bị,W00662N
+74,chuẩn bị,W00662T
+74,chúc mừng,W00663B
+74,chúc mừng,W00663N
+74,chúc mừng,W00663T
+74,chúc tết,W00664B
+74,chúc tết,W00664N
+74,chúc tết,W00664T
+74,chúc thọ,W00665B
+74,chúc thọ,W00665N
+74,chúc thọ,W00665T
+75,chục,W00666
+75,chục nghìn,W00667
+75,chục triệu,W00668
+75,chui,W00669
+75,chúi đầu,W00671
+75,chum,W00672
+75,chùm hoa,W00673
+75,chùm khế,W00674
+75,chùm nho,W00676
+75,chùm vải,W00677
+75,chung kết,W00678
+75,chuỗi hạt,W00679
+75,chuông,W00683
+75,chuông nhà,W00684
+75,chuồng,W00685
+75,chuột quang,W00686
+75,chụp ảnh,W00687
+75,chụp đèn,W00688
+75,chuyên biệt,W00689
+75,chuyên cần,W00690
+76,chuyên gia,W00691B
+76,chuyên gia,W00691N
+76,chuyên gia,W00691T
+76,chuyền bóng,W00692
+76,chim chuyền cành,W00693
+76,chuyển đồ,W00694
+76,chuyển đổi số đo,W00696
+76,chuyển động,W00697
+76,chuyển động đều,W00698
+76,chuyển động quay,W00699
+76,chuyển giao,W00700
+76,chuyển hướng,W00701
+76,chuyển vế,W00702
+76,chuyện trò,W00703
+76,chữ cái,W00705
+76,chữ hoa,W00706
+76,chữ viết,W00707
+76,chữa bài,W00708B
+76,chữa bài,W00708N
+76,chữa bài,W00708T
+77,chữa cháy,W00709
+77,chức năng,W00710
+77,chứng kiến,W00712
+77,chương trình,W00713
+77,chữ,W00714
+77,chữa bệnh,W00716
+77,chức vụ,W00717
+77,chứng cớ,W00718
+77,chứng minh,W00719
+77,chứng nhận,W00720
+77,co dãn,W00721
+77,co giật,W00722
+77,cỏ may,W00724
+77,có ích,W00726
+77,trọng nam khinh nữ,W00728
+77,còi,W00729
+77,còi xương,W00730
+77,coi thường,W00731
+77,máy vi tính,W00732
+77,con ba ba,W00733
+78,con bê,W00734B
+78,con bê,W00734N
+78,con bê,W00734T
+78,con bò,W00735B
+78,con bò,W00735N
+78,con bò,W00735T
+78,con bướm,W00736
+78,con cá,W00737B
+78,con cá,W00737N
+78,con cá,W00737T
+78,con chim,W00738
+78,con chó,W00739B
+78,con chó,W00739N
+78,con chó,W00739T
+78,con chồn,W00740
+78,con chuồn chuồn,W00741
+78,con chuột,W00742B
+78,con chuột,W00742N
+78,con chuột,W00742T
+78,con chuột nhắt,W00743
+79,con cò,W00745
+79,con cóc,W00746
+79,con cọp,W00747B
+79,con cọp,W00747N
+79,con cọp,W00747T
+79,con công,W00748
+79,con cua,W00749
+79,con cú mèo,W00750
+79,con cừu,W00751
+79,con dâu,W00752
+79,con dê,W00753
+79,con dế,W00754
+79,con đẻ,W00755
+79,con đom đóm,W00756
+79,con đường,W00757
+79,con ếch,W00758B
+79,con ếch,W00758N
+79,con ếch,W00758T
+79,con gà,W00759
+79,con gái,W00760
+80,con gấu,W00761
+80,con ghẹ,W00762
+80,con gián,W00763
+80,con hoẵng,W00764
+80,con hươu,W00766
+80,con khỉ,W00767
+80,con kiến,W00768B
+80,con kiến,W00768N
+80,con kiến,W00768T
+80,con lợn (con heo),W00770B
+80,con lợn (con heo),W00770N
+80,con lợn (con heo),W00770T
+80,con lươn,W00771
+80,con mèo,W00772B
+80,con mèo,W00772N
+80,con mèo,W00772T
+80,con muỗi,W00773B
+80,con muỗi,W00773N
+80,con muỗi,W00773T
+80,con mực,W00774
+81,con nai,W00775
+81,con ngỗng,W00776
+81,con người,W00777B
+81,con người,W00777N
+81,con người,W00777T
+81,con ngựa,W00778B
+81,con ngựa,W00778N
+81,con ngựa,W00778T
+81,con nhím,W00779
+81,con nuôi,W00780B
+81,con nuôi,W00780N
+81,con nuôi,W00780T
+81,con ong,W00781N
+81,con ong,W00781T
+81,con ốc,W00782
+81,con quạ,W00783
+81,con rắn,W00784
+81,con rối,W00785
+81,con ruồi,W00786
+81,con rùa,W00787N
+82,con sâu,W00788
+82,con sò,W00789
+82,con sóc,W00790
+82,con sói,W00791
+82,con sông,W00792
+82,con số,W00793
+82,con sư tử,W00794N
+82,con sư tử,W00794T
+82,con tem,W00795
+82,con thỏ,W00796
+82,con tôm,W00797B
+82,con tôm,W00797N
+82,con tôm,W00797T
+82,con trai (động vật),W00798
+82,con trăn,W00799
+82,con trỏ,W00800
+82,con vẹt,W00801
+82,con vịt,W00802
+82,con voi,W00803B
+82,con voi,W00803N
+83,con voi,W00803T
+83,cong,W00804
+83,còng (cái còng),W00805
+83,còng,W00806
+83,cõng,W00807
+83,cô dâu,W00809
+83,cô đơn,W00811
+83,cô giáo,W00812B
+83,cô giáo,W00812N
+83,cô giáo,W00812T
+83,cổ,W00814
+83,cổ áo,W00815
+83,cổ chân,W00816
+83,cổ đại,W00817
+83,cổ họng,W00818
+83,cổ kính,W00819
+83,cố gắng,W00820B
+83,cố gắng,W00820N
+83,cố gắng,W00820T
+83,cổ tay,W00822
+84,cổ truyền,W00823
+84,cổ vũ,W00824
+84,cổng trường,W00825N
+84,cổng trường,W00825T
+84,cỗ,W00826
+84,cố định,W00827
+84,Cô-lôm-bi-a (nước Cô-lôm-bi-a),W00829
+84,cổ tích,W00830
+84,cố ý (như cố tình),W00831
+84,cốc,W00832
+84,cối giã,W00833
+84,cối xay gió,W00834
+84,cối xay lúa,W00835
+84,cốm,W00836
+84,côn trùng,W00837
+84,công bằng,W00838
+84,công chúa,W00839
+84,công cộng,W00840
+84,công cụ,W00841
+84,công nhận,W00843
+85,công sức,W00844
+85,công tắc,W00845
+85,công thức,W00846
+85,công trường,W00848B
+85,công ước,W00849
+85,công viên,W00850B
+85,công viên,W00850N
+85,công viên,W00850T
+85,công việc,W00851
+85,Paris,W00852
+85,cổng,W00854
+85,cống,W00856
+85,cộng (Toán học),W00857B
+85,cộng (Toán học),W00857N
+85,cộng (Toán học),W00857T
+85,Cộng Hòa Séc (nước Cộng Hòa Séc),W00858
+85,cốp xe,W00859
+85,cột,W00861
+85,cột đèn,W00862
+85,cột điện,W00863B
+86,cột điện,W00863N
+86,cột điện,W00863T
+86,cột nhà,W00865
+86,cột sống,W00866
+86,cơ bắp,W00867
+86,cơ hội,W00868B
+86,cơ hội,W00868N
+86,cơ hội,W00868T
+86,cơ quan,W00870
+86,cơ sở,W00871
+86,cơ thể,W00872
+86,cởi áo,W00876
+86,cơm hộp,W00877
+86,cờ,W00878
+86,cờ ca rô,W00880
+86,cờ tướng,W00881
+86,cờ vua,W00882
+86,cởi mở,W00883
+86,cơm,W00884
+86,cơm bình dân,W00885B
+87,cơm bình dân,W00885N
+87,cơm bình dân,W00885T
+87,Cu ba (nước Cu ba),W00887
+87,củ đậu,W00889
+87,củ khoai lang,W00890
+87,củ từ,W00892
+87,cụ thể,W00893
+87,cúc áo,W00894
+87,cúi,W00895
+87,cuống hoa,W00899
+87,cù,W00900
+87,củ cà rốt,W00901
+87,củ cải trắng,W00902
+87,củ gừng,W00903
+87,củ hành tây,W00904
+87,củ khoai tây,W00905
+87,củ nghệ,W00906
+87,củ su hào,W00907
+87,củ tỏi,W00908
+87,củ sả,W00909
+88,cụ,W00910
+88,cụ đồ,W00911
+88,cụ già,W00912
+88,cục tẩy,W00914
+88,cùi chỏ,W00915
+88,củi,W00916
+88,cụm từ,W00918
+88,cuộc đời,W00922
+88,cuộc sống,W00923
+88,cuốn,W00924
+88,cuộn giấy vệ sinh,W00925
+88,cuống lá,W00926
+88,cử chỉ điệu bộ,W00929
+88,cử động,W00930
+88,cưa (cái cưa),W00931
+88,cưa,W00932
+88,cửa hàng,W00935B
+88,cửa hàng,W00935N
+88,cửa hàng,W00935T
+88,cửa khẩu,W00936
+89,cửa kính,W00937
+89,cửa sổ,W00939
+89,cưỡi ngựa,W00941
+89,yên ngựa,W00942
+89,cướp,W00943B
+89,cướp,W00943N
+89,cướp,W00943T
+89,cướp biển,W00944
+89,cướp cờ,W00945
+89,cướp giật,W00946
+89,cứu,W00947
+89,cứu hộ,W00948
+89,dai,W00951
+89,dài,W00952
+89,dài hạn,W00953
+89,dài hơn,W00954
+89,dài nhất,W00955
+89,dải phân cách,W00958
+89,dàn bài,W00959
+89,dàn nhạc,W00960
+90,danh bạ,W00963
+90,danh dự,W00964
+90,danh hiệu,W00965
+90,danh lam thắng cảnh,W00966
+90,danh mục,W00967
+90,danh nhân,W00968
+90,danh sách,W00969
+90,danh từ,W00970
+90,danh từ riêng,W00971
+90,dán,W00972
+90,dao,W00973
+90,dãy nhà,W00975
+90,dãy núi,W00976
+90,dãy số,W00977
+90,dãy số liệu,W00978
+90,dạy,W00979
+90,dặn dò,W00980
+90,dắt,W00981
+90,dân ca,W00982
+90,dân chài,W00983
+91,gian lận,W00985
+91,dân số,W00987
+91,dân tộc,W00988B
+91,dân tộc,W00988N
+91,dân tộc,W00988T
+91,dân tộc thiểu số,W00989B
+91,dân tộc thiểu số,W00989N
+91,dân tộc thiểu số,W00989T
+91,dẫn chương trình,W00990
+91,dẫn chứng,W00991
+91,dập,W00992
+91,dầu ăn,W00993
+91,dầu gội đầu,W00994
+91,dầu hoả,W00995
+91,dầu khí,W00996
+91,dầu mỏ,W00997
+91,dấu bằng,W00998
+91,dấu chấm,W01001
+91,dấu chấm hỏi,W01002
+91,dấu chấm than,W01003
+92,dấu chia,W01004
+92,dấu gạch ngang,W01005
+92,dấu hai chấm,W01006
+92,bắt buộc,W01008
+92,dấu ngoặc đơn,W01009
+92,dấu nhân,W01010
+92,dấu phẩy,W01011
+92,dây buộc tóc,W01014
+92,dây chun,W01015
+92,dây điện,W01016B
+92,dây điện,W01016N
+92,dây điện,W01016T
+92,dây thần kinh,W01017
+92,dây thừng,W01018
+92,dây xích,W01019
+92,dẻo,W01021
+92,dép quai hậu,W01022B
+92,dép quai hậu,W01022N
+92,dép quai hậu,W01022T
+92,dê con,W01024
+93,dê mẹ,W01025
+93,dễ chịu,W01026
+93,dễ thương,W01027
+93,dệt,W01028
+93,di chuyển,W01029
+93,di truyền,W01032B
+93,di truyền,W01032N
+93,di truyền,W01032T
+93,dịch vụ,W01033B
+93,dịch vụ,W01033N
+93,dịch vụ,W01033T
+93,diêm,W01034
+93,kịch,W01035
+93,kịch câm,W01036
+93,diễn thuyết,W01038
+93,diện tích,W01039
+93,diện tích toàn phần,W01040
+93,diện tích xung quanh,W01041
+93,diệt chủng,W01042
+93,xịt côn trùng,W01043
+94,diều,W01044
+94,Dinh Độc Lập,W01046
+94,hăm dọa,W01050
+94,doanh nghiệp,W01051
+94,doanh trại,W01053
+94,dọc,W01054
+94,dòng chữ,W01055
+94,dòng họ,W01056
+94,dòng sông,W01058
+94,dốc,W01060
+94,dốt,W01061
+94,du học,W01062
+94,du thuyền,W01064
+94,dũng cảm,W01068
+94,dụng cụ,W01069
+94,duyên dáng,W01070
+94,duyệt binh,W01071
+94,nhà nước,W01075B
+94,nhà nước,W01075N
+94,nhà nước,W01075T
+95,dựng phim,W01076
+95,đá bóng,W01078
+95,pháo đài,W01079
+95,đài sen,W01080
+95,đại diện,W01082B
+95,đại diện,W01082N
+95,đại diện,W01082T
+95,đại dương,W01083
+95,đại số,W01085
+95,đại tá,W01086
+95,đại tướng,W01088
+95,đại úy,W01089
+95,đảm nhiệm,W01092
+95,đám ma,W01093
+95,đám mây,W01094
+95,đan,W01095
+95,đàn xê lô đại vĩ cầm,W01096
+95,đàn bầu,W01098
+95,đàn bướm,W01099
+95,đàn ghi ta,W01100
+96,đàn kiến,W01101
+96,đàn tơ-rưng,W01103
+96,đàng ngoài,W01104
+96,đàng trong,W01105
+96,đáng quý,W01106
+96,đánh,W01107
+96,đánh bắt,W01108
+96,đánh giá,W01110
+96,đánh răng,W01112
+96,đánh trống,W01113
+96,đạn,W01114
+96,đào tạo,W01115
+96,đảo,W01116
+96,đảo Lý Sơn,W01117
+96,đảo Phú Quốc,W01118
+96,đặc biệt,W01122
+96,đặc biệt,W01122B
+96,đặc biệt,W01122N
+96,đặc biệt,W01122T
+96,đặc điểm,W01124
+97,Đắk Lắk,W01125
+97,đăng ký,W01126
+97,đăng nhập,W01127
+97,đằng sau,W01128
+97,đằng trước,W01129
+97,Đặng Văn Ngữ,W01130
+97,đắt đỏ,W01131
+97,đặt,W01132
+97,đập,W01134
+97,đất,W01135
+97,đất màu mỡ,W01137
+97,đất nặn,W01138
+97,đất trồng cây,W01140
+97,đầu gối,W01141
+97,đầu hàng,W01142
+97,đầu tàu,W01143
+97,đầu tiên,W01144
+97,đầu xuôi đuôi lọt,W01145
+97,đấu tranh,W01146
+97,đấu vật,W01148
+98,đầy,W01149
+98,đầy đủ,W01150
+98,đầy tớ,W01151
+98,đẩy,W01152
+98,đen láy (như đen nhánh),W01153B
+98,đen láy (như đen nhánh),W01153N
+98,đen láy (như đen nhánh),W01153T
+98,đèn báo giao thông,W01154B
+98,đèn báo giao thông,W01154N
+98,đèn báo giao thông,W01154T
+98,đèn điện,W01155B
+98,đèn điện,W01155N
+98,đèn điện,W01155T
+98,đèn đỏ,W01156
+98,đèn lồng,W01158
+98,đèn pin,W01159B
+98,đèn pin,W01159N
+98,đèn pin,W01159T
+98,đèn vàng,W01161B
+98,đèn vàng,W01161N
+99,đèn vàng,W01161T
+99,đèn xanh,W01162B
+99,đèn xanh,W01162N
+99,đèn xanh,W01162T
+99,đeo kính,W01164
+99,đèo Hải Vân,W01165B
+99,đèo Hải Vân,W01165N
+99,đèo Hải Vân,W01165T
+99,đèo,W01166
+99,đẹp đẽ (như đẹp),W01170
+99,đẹp mê hồn,W01172
+99,để (đặt),W01173
+99,đề-ca-mét (dam),W01175
+99,đề-ca-mét vuông (dam2),W01176
+99,đề nghị,W01177B
+99,đề nghị,W01177N
+99,đề nghị,W01177T
+99,đề tài,W01179
+99,đề-xi-mét (dm),W01181
+99,đề-xi-mét khối (dm3),W01182
+100,đề-xi-mét vuông (dm2),W01183
+100,đếm,W01184
+100,đền,W01185N
+100,Đền Hùng,W01186
+100,đều đặn,W01188
+100,đi,W01190
+100,đi học,W01191
+100,đĩa,W01192
+100,đĩa DVD,W01193
+100,địa cầu,W01194
+100,địa đạo Củ Chi,W01196
+100,địa điểm,W01197
+100,địa lí,W01199
+100,đích,W01201
+100,điểm ở giữa đoạn thẳng,W01203
+100,tấm lòng,W01204
+100,điện,W01205B
+100,điện,W01205N
+100,điện,W01205T
+100,Điện Biên Phủ,W01207
+101,điện thoại,W01208
+101,điêu khắc,W01210
+101,quả điều,W01211
+101,quả điều,W01211N
+101,điều phối,W01212B
+101,điều phối,W01212N
+101,điều hòa,W01213B
+101,điều hòa,W01213T
+101,điều khiển,W01214
+101,điều kiện,W01215
+101,điều tra,W01216
+101,điều trị,W01217
+101,đinh,W01219
+101,đỉnh,W01224
+101,đỉnh núi,W01225
+101,định vị,W01226
+101,đo,W01227
+101,đoàn cải lương,W01229
+101,đoàn thanh niên,W01231
+101,đoàn tụ,W01232
+102,đoán,W01234
+102,đoạn thẳng,W01235
+102,đoạn thơ,W01236
+102,đoạn văn,W01237
+102,đọc sách,W01239
+102,đón,W01241
+102,đón tiếp,W01242
+102,đóng cửa,W01243
+102,đóng dấu,W01244
+102,đóng góp,W01246
+102,đô thị,W01248
+102,đồ chơi,W01249
+102,đồ dùng dạy học,W01250
+102,đồ dùng học tập,W01251
+102,độc hại,W01254
+102,đôi dép,W01255
+102,đổi,W01256
+102,đối diện,W01257
+102,đối tượng,W01258
+102,nhập ngũ,W01259B
+103,nhập ngũ,W01259N
+103,nhập ngũ,W01259T
+103,đội trưởng,W01260
+103,đồn công an,W01261
+103,Đông Nam,W01262
+103,Đông Nam Á,W01263
+103,đồng bằng,W01264
+103,đồng hồ,W01265
+103,Đồng Nai,W01266
+103,Đồng Tháp Mười,W01267
+103,đổ nước,W01268
+103,độc lập,W01272
+103,đôi chân,W01273
+103,đôi tay,W01274
+103,đổi mới,W01277
+103,đối thoại,W01279
+103,đối xử,W01280
+103,đối xứng,W01281
+103,đội thiếu niên,W01283
+103,trống (không có gì),W01284
+104,Đông Dương,W01286
+104,đông lạnh,W01287
+104,Đông Timor (nước Đông Timor),W01288
+104,đồng bào,W01289
+104,đồng lúa,W01293
+104,đồng phục,W01294B
+104,đồng phục,W01294N
+104,đồng phục,W01294T
+104,đồng ruộng,W01295
+104,đồng tiền,W01296
+104,rơm rớm,W01297
+104,nhiệt độ,W01298
+104,động cơ,W01299
+104,tác động,W01301
+104,động viên,W01302
+104,đợi,W01304B
+104,đợi,W01304N
+104,đợi,W01304T
+104,đơn giản,W01305
+104,dung tích,W01310
+105,tính,W01313
+105,đỡ,W01314
+105,đua ngựa,W01315
+105,đua thuyền,W01316
+105,đua xe máy,W01317
+105,đũa,W01318
+105,đun nấu,W01321
+105,đuốc,W01322
+105,đuôi,W01323
+105,sa thải,W01324
+105,đưa đón,W01325
+105,đứng nghiêm,W01326
+105,đựng,W01328
+105,đường biên giới,W01329
+105,đường bộ,W01330
+105,đường cao,W01331
+105,đường chéo,W01332
+105,đường hàng không,W01335
+105,đường hầm,W01336
+105,đường kính,W01337
+106,đường Nguyễn Huệ,W01341
+106,đường sắt,W01343
+106,đường thẳng,W01344
+106,đường thuỷ,W01345
+106,đường tròn,W01346
+106,e thẹn,W01348B
+106,e thẹn,W01348N
+106,e thẹn,W01348T
+106,em dâu,W01349
+106,em gái,W01350
+106,em rể,W01351B
+106,em rể,W01351N
+106,em rể,W01351T
+106,em trai,W01352B
+106,em trai,W01352N
+106,em trai,W01352T
+106,em út,W01353
+106,email,W01354
+106,Ê Đê,W01357
+106,ế ẩm,W01358
+107,Ê-ti-ô-pi-a (nước Ê-ti-ô-pi-a),W01360
+107,ga tàu,W01364B
+107,ga tàu,W01364N
+107,ga tàu,W01364T
+107,gà mái,W01365N
+107,gà rừng,W01366
+107,gà tây,W01367
+107,gà trống,W01368
+107,gai,W01375
+107,gãi đầu gãi tai,W01376
+107,gan,W01377
+107,gan dạ,W01378N
+107,gan lì,W01379
+107,gang tay,W01381
+107,gánh,W01382
+107,gạo,W01384B
+107,gạo,W01384N
+107,gạo,W01384T
+107,gạo nếp,W01385
+107,gãy chân,W01387
+108,gãy tay,W01388
+108,gáy,W01389
+108,gặm cỏ,W01390
+108,gặm xương (con chó gặm xương),W01391
+108,gắn bó,W01392
+108,găng tay,W01393
+108,gắp thức ăn,W01394
+108,gặp gỡ,W01395
+108,gặt lúa,W01396
+108,gần gũi,W01397
+108,gấp giấy,W01398
+108,gấp quần áo,W01399
+108,gật đầu,W01400
+108,gật gù,W01401
+108,gầy (miền Nam: ốm),W01403B
+108,gầy (miền Nam: ốm),W01403N
+108,gầy (miền Nam: ốm),W01403T
+108,gậy của người già,W01404
+108,ghé thăm,W01406
+108,ghép hình,W01407
+109,ghi chép,W01410
+109,ghi chú,W01411
+109,ghi hình,W01412
+109,ghi nhớ,W01413
+109,Gia Lai,W01415
+109,giả bộ (giống giả vờ),W01417T
+109,giả mạo,W01418
+109,giả sử,W01419
+109,giá sách,W01420
+109,giai đoạn,W01423
+109,giải thích,W01424
+109,giảm,W01425
+109,giám sát,W01426
+109,giàn mướp,W01427
+109,giao hàng,W01429
+109,giao thông,W01430B
+109,giao thông,W01430N
+109,giã,W01432
+109,giá trị,W01433B
+109,giá trị,W01433N
+110,giá trị,W01433T
+110,giá trị phần trăm,W01434B
+110,giá trị phần trăm,W01434N
+110,giá trị phần trăm,W01434T
+110,giá trị tuyệt đối,W01435
+110,giải lao,W01437
+110,giải quyết,W01438
+110,giải vô địch,W01440
+110,giám đốc,W01441
+110,giám khảo,W01442
+110,gian khổ,W01443
+110,giàn khoan,W01444
+110,giàn nho,W01445
+110,gián tiếp,W01447B
+110,gián tiếp,W01447N
+110,gián tiếp,W01447T
+110,giao hoán,W01450
+110,giao lưu,W01451
+110,giao thừa,W01452
+110,giao tiếp,W01453B
+111,giao tiếp,W01453N
+111,giao tiếp,W01453T
+111,giáo dục,W01456
+111,giáo sĩ,W01458
+111,giàu có,W01459
+111,giấc ngủ,W01462
+111,giẫm,W01463
+111,giận dỗi,W01464
+111,giận dữ,W01465
+111,giật mình,W01466
+111,giầy ba ta,W01467
+111,giầy dép,W01468
+111,giầy thể thao,W01469
+111,giấy,W01470B
+111,giấy,W01470N
+111,giấy,W01470T
+111,giấy ăn,W01471B
+111,giấy ăn,W01471N
+111,giấy ăn,W01471T
+111,giấy màu,W01472B
+112,giấy màu,W01472N
+112,giấy màu,W01472T
+112,giấy nháp,W01473B
+112,giấy nháp,W01473N
+112,giấy nháp,W01473T
+112,giấy tờ,W01474
+112,giẻ lau,W01476
+112,gieo xúc xắc,W01477
+112,giếng nước,W01478
+112,giết,W01479
+112,gió Lào,W01482
+112,giỏi,W01485
+112,giọng ca,W01486
+112,giọng nói,W01487
+112,giông bão,W01489
+112,giống nhau,W01490
+112,giơ tay,W01491
+112,giới hạn,W01493
+112,giới thiệu,W01494
+112,giúp đỡ,W01497B
+113,giúp đỡ,W01497N
+113,giúp đỡ,W01497T
+113,giường,W01498
+113,góc bẹt,W01501
+113,góc bếp,W01502
+113,góc học tập,W01503
+113,góc nhọn,W01505
+113,góc tù,W01506
+113,góc vuông,W01507
+113,góc vườn,W01508
+113,gói (đgt),W01509
+113,gói,W01510
+113,gọi,W01511
+113,gọn gàng,W01512
+113,góp ý,W01513
+113,gọt bút chì (cái),W01514
+113,gọt bút chì,W01515
+113,gỗ,W01516B
+113,gỗ,W01516N
+113,gỗ,W01516T
+114,gốm sứ,W01517
+114,gợi ý,W01518
+114,gửi,W01519
+114,gửi quà,W01520
+114,gửi thư,W01522
+114,gương,W01523
+114,gương mặt,W01524
+114,gương mẫu,W01525
+114,Hà Giang,W01526
+114,Hà Lan (nước Hà Lan),W01527
+114,Hạ Long,W01530
+114,hài hước,W01532
+114,Hải Dương,W01533
+114,hải đảo,W01534
+114,hàm răng,W01536
+114,hạn hán,W01537
+114,hàng chục,W01539
+114,hàng chục nghìn,W01540
+114,hàng chục triệu,W01541
+114,hàng dọc,W01542
+115,hàng đơn vị,W01543
+115,hàng ngang,W01545
+115,hàng nghìn,W01546
+115,hàng trăm,W01547
+115,hàng trăm nghìn,W01548
+115,hàng triệu,W01550
+115,hàng xóm,W01552
+115,hành động,W01554
+115,hành lang,W01556
+115,hành quân,W01557B
+115,hành quân,W01557N
+115,hành quân,W01557T
+115,hành tinh,W01558
+115,hành vi,W01559
+115,hát ru,W01560
+115,hạt,W01562
+115,hạt cườm,W01563
+115,hạt lạc,W01566
+115,hạt lúa,W01567
+115,hạt tiêu,W01568
+116,hăng hái,W01569
+116,hằng đẳng thức,W01570
+116,hắt hơi,W01571
+116,Hậu Giang,W01572
+116,hậu quả,W01573
+116,héc-ta (ha),W01575B
+116,héc-tô-gam (hg),W01576B
+116,héc-tô-gam (hg),W01576N
+116,héc-tô-gam (hg),W01576T
+116,héc-tô-mét (hm),W01577B
+116,héc-tô-mét (hm),W01577N
+116,héc-tô-mét (hm),W01577T
+116,héc-tô-mét vuông (hm2),W01578B
+116,héc-tô-mét vuông (hm2),W01578N
+116,héc-tô-mét vuông (hm2),W01578T
+116,héo,W01579
+116,hét (giống la),W01580
+116,hệ thống,W01582B
+116,hệ thống,W01582N
+116,hệ thống,W01582T
+117,hi sinh,W01583B
+117,hi sinh,W01583N
+117,hi sinh,W01583T
+117,hi vọng,W01584B
+117,hi vọng,W01584N
+117,hi vọng,W01584T
+117,hiện đại,W01587
+117,hiện nay,W01588
+117,hiểu,W01591B
+117,hiểu,W01591N
+117,hiểu,W01591T
+117,hiếu thảo,W01593
+117,hiệu thuốc,W01594
+117,hiệu (Toán học),W01595
+117,hiệu cầm đồ,W01596
+117,hình,W01599
+117,hình bình hành,W01600
+117,hình cầu,W01601
+117,hình chiếu,W01602
+117,hình dáng,W01603
+118,hình elip,W01604
+118,hình học,W01605
+118,hình hộp chữ nhật,W01606
+118,hình lập phương,W01608
+118,hình phạt,W01610
+118,hình thang,W01612
+118,hình trụ,W01616
+118,hình tứ giác,W01617
+118,hình vẽ,W01618
+118,hoa,W01619B
+118,hoa,W01619N
+118,hoa,W01619T
+118,hoa cúc,W01620
+118,hoa đào,W01621
+118,hoa hồng,W01622
+118,hoa lay ơn,W01625
+118,hoa sen,W01629B
+118,hoa sen,W01629N
+118,hoa sen,W01629T
+118,hòa bình,W01634
+119,hòa nhập,W01637
+119,họa sỹ,W01638
+119,hoàn thành,W01641
+119,hoán vị,W01643
+119,hoàng đế,W01645
+119,hoàng hôn,W01646
+119,Hoàng tử,W01649
+119,hoảng sợ,W01650
+119,hoạt động,W01651B
+119,hoạt hình,W01655B
+119,hoạt hình,W01655N
+119,hoạt hình,W01655T
+119,học giỏi,W01656
+119,học sinh Miền Nam,W01658
+119,học trung bình,W01659
+119,hỏi han,W01660
+119,hòn đá,W01661
+119,hót rác,W01662
+119,học bổng,W01665
+119,học kém,W01666
+120,học nhóm,W01668
+120,học phí,W01669
+120,học tập,W01670
+120,học trò,W01671
+120,hỏi,W01672B
+120,hỏi,W01672N
+120,hỏi,W01672T
+120,hỏi thăm,W01673B
+120,hòn bi (giống viên bi),W01674B
+120,hỏng,W01675B
+120,hỏng,W01675N
+120,hỏng,W01675T
+120,họng,W01676
+120,họp,W01677B
+120,họp,W01677N
+120,họp,W01677T
+120,hót,W01678
+120,hót rác (cái hót rác),W01679
+120,Hồ Chí Minh,W01681
+120,hồ dán,W01682
+121,hồ Hoàn Kiếm,W01684
+121,hồ nước,W01686
+121,hồi hộp,W01690B
+121,hồi hộp,W01690N
+121,hồi hộp,W01690T
+121,hối hận,W01692B
+121,hối hận,W01692N
+121,hối hận,W01692T
+121,hối lộ,W01693
+121,hội nghị,W01695B
+121,hội thảo,W01696
+121,hội thảo,W01696N
+121,hội trường,W01698
+121,hôn,W01700
+121,hỗn số,W01701
+121,hộp,W01702
+121,hộp bút,W01703
+121,hộp sữa,W01704
+121,hơi nước,W01706
+121,hợp đồng,W01707B
+122,hợp đồng,W01707T
+122,hợp lí,W01708
+122,hợp tác,W01709
+122,huân chương,W01710
+122,hung ác,W01711
+122,hung thủ,W01712
+122,Hung-ga-ri (nước Hung-ga-ri),W01714
+122,Hùng Vương,W01715
+122,hút nước,W01716
+122,hút thuốc lá,W01717
+122,huy hiệu,W01718
+122,huỷ diệt,W01719
+122,huyện,W01721B
+122,huyện,W01721N
+122,huyện,W01721T
+122,Hưng Yên,W01723
+122,hướng dẫn,W01724
+122,muối i-ốt,W01725
+122,I-rắc (nước I-rắc),W01726
+122,ích lợi,W01727
+123,in (ấn),W01728B
+123,ít,W01730
+123,ít hơn,W01731
+123,ít nhất,W01732
+123,Italia (nước Italia),W01733
+123,kẻ cắp,W01734
+123,kèn,W01735
+123,kẻ thù,W01737
+123,kém,W01738B
+123,kém,W01738N
+123,kém,W01738T
+123,keo kiệt,W01739
+123,kéo,W01740
+123,kẹo,W01743B
+123,kẹo,W01743N
+123,kẹo,W01743T
+123,kẹp,W01744
+123,kể chuyện,W01746
+123,kết bạn,W01750
+123,kết hợp,W01751
+124,kết quả,W01754B
+124,kết quả,W01754N
+124,kết quả,W01754T
+124,kêu,W01755
+124,kêu gọi,W01756
+124,khác,W01757
+124,khách,W01758
+124,khách mời,W01759
+124,khách sạn,W01760
+124,khách vip,W01761
+124,hoang mang,W01764
+124,khai mạc,W01766
+124,khám bệnh,W01767
+124,khám phá,W01768
+124,kháng cự,W01770
+124,kháng sinh,W01771
+124,Khánh Hòa,W01772
+124,khát nước,W01774
+124,khát vọng,W01775
+124,khắc phục,W01776
+125,khăn mặt,W01777
+125,khăn quàng,W01779
+125,khăn quàng đỏ,W01780
+125,khâm phục,W01783
+125,khâu vá,W01784
+125,khẩu hiệu,W01785
+125,khẩu trang,W01786
+125,khe cửa,W01787
+125,khe núi,W01788
+125,khen,W01789
+125,khen tặng,W01791
+125,khéo,W01792
+125,khép cửa,W01793
+125,khí cầu,W01794
+125,khiêm tốn,W01796
+125,khiêng,W01800
+125,khó khăn,W01803B
+125,khó khăn,W01803N
+125,khoa học,W01804
+125,khóa quần,W01806
+126,khoác vai,W01807
+126,khoan (cái khoan),W01808
+126,khoảng cách,W01809
+126,khoá (cái khóa),W01810
+126,khóa cửa,W01811
+126,khoác áo,W01813
+126,khoác tay,W01814
+126,khoan,W01815
+126,khoang tàu,W01816
+126,khoanh tay,W01820
+126,khóc,W01821
+126,khoe,W01822
+126,khoẻ mạnh,W01823
+126,khỏi bệnh,W01824B
+126,khỏi bệnh,W01824N
+126,khỏi bệnh,W01824T
+126,khói,W01825
+126,khóm dứa,W01826
+126,bụi tre,W01827
+126,khô héo,W01828
+127,khổ thơ,W01829
+127,cầu Long Biên,W01831
+127,khối lượng,W01832
+127,không gian,W01833
+127,không thẳng hàng,W01834
+127,khổng lồ,W01835
+127,khố,W01836
+127,không hiểu,W01840B
+127,không hiểu,W01840N
+127,không hiểu,W01840T
+127,không khí,W01841
+127,khổ,W01842
+127,khổ,W01842N
+127,khớp xương,W01847
+127,khu rừng,W01849
+127,khu vườn,W01851
+127,vực sâu,W01852
+127,khúc khuỷu,W01854
+127,khung cửa số,W01856
+127,khung thành,W01857
+128,khuôn hình,W01858
+128,khuy,W01859
+128,khuyên tai,W01860
+128,kì diệu,W01861
+128,kì lạ,W01862
+128,kí duyệt,W01863
+128,ki-lô-gam,W01864
+128,ki-lô-mét vuông (km2),W01865
+128,kỉ niệm,W01866B
+128,kỉ niệm,W01866N
+128,kỉ niệm,W01866T
+128,kí hiệu,W01867
+128,ki-lô-mét (km),W01869
+128,kỉ luật,W01871
+128,kí tên,W01872B
+128,kí tên,W01872N
+128,kí tên,W01872T
+128,kịch bản,W01876
+128,kiểm tra,W01878B
+128,kiểm tra,W01878N
+129,kiểm tra,W01878T
+129,kiếm (cái kiếm),W01879
+129,Kiên Giang,W01881
+129,kiên quyết,W01882
+129,kiên trì (giống: kiên nhẫn),W01883
+129,kiến thức,W01885
+129,kiến trúc,W01886
+129,kiến trúc sư,W01887
+129,"kiêu (kiêu căng, kiêu xa)",W01888
+129,kim,W01890
+129,kinh ngạc,W01897
+129,kinh nghiệm,W01898B
+129,kinh nghiệm,W01898N
+129,kinh nghiệm,W01898T
+129,kính,W01900
+129,kính hiển vi,W01902
+129,kính lão,W01903
+129,kính lúp,W01904
+129,kính trọng,W01906
+129,Kon Tum,W01908
+130,la bàn,W01909
+130,la hét,W01910
+130,là gì?,W01911B
+130,là gì?,W01911N
+130,là gì?,W01911T
+130,lá cây,W01912B
+130,lá cây,W01912N
+130,lá thư,W01913
+130,Lạc Long Quân,W01914
+130,lạc quan,W01915
+130,lái tàu hỏa,W01920B
+130,lái tàu hỏa,W01920N
+130,lái tàu hỏa,W01920T
+130,làm bài tập,W01924
+130,làm bài tập,W01924N
+130,làm quen,W01925B
+130,làm ruộng,W01926
+130,làm việc,W01928
+130,lang thang,W01930
+130,làn sóng,W01932
+131,làng xóm,W01939
+131,Lạng Sơn,W01940
+131,lãnh đạo,W01942
+131,thổ dân,W01943
+131,lao phổi,W01944
+131,Lào (nước Lào),W01945B
+131,Lào (nước Lào),W01945N
+131,Lào (nước Lào),W01945T
+131,lão già,W01947
+131,lau chùi,W01948
+131,lau khô,W01949
+131,lau nhà,W01950
+131,lắc đầu,W01951
+131,lăng Bác Hồ,W01953
+131,lắng nghe,W01955
+131,lặn,W01956
+131,lặng lẽ,W01957
+131,lắp ráp,W01960
+131,Lâm Đồng,W01961
+131,lẫn lộn,W01962
+132,lầu (tầng),W01964
+132,lây bệnh,W01966
+132,lây nhiễm,W01967
+132,lấy,W01970
+132,leo trèo,W01973
+132,lễ bế giảng,W01977
+132,lễ bế giảng,W01977B
+132,lễ hội,W01978B
+132,lễ hội,W01978N
+132,lễ hội,W01978T
+132,lễ Nô-en,W01979B
+132,lễ Nô-en,W01979N
+132,lễ Nô-en,W01979T
+132,lễ hội hóa trang,W01982B
+132,lễ hội hóa trang,W01982N
+132,lễ hội hóa trang,W01982T
+132,lễ phép,W01983
+132,lễ vật,W01984
+132,lên đường,W01986
+132,lên ngôi,W01987
+133,lên xe,W01989
+133,lều trại,W01991
+133,lí do,W01992
+133,Liên Bang Nga (nước Nga),W01996B
+133,Liên Bang Nga (nước Nga),W01996N
+133,Liên Bang Nga (nước Nga),W01996T
+133,liên hoan,W01998B
+133,liên hoan,W01998N
+133,liên hoan,W01998T
+133,liên kết,W01999
+133,liên lạc,W02000B
+133,liên lạc,W02000N
+133,liên lạc,W02000T
+133,liên quan,W02001B
+133,liên quan,W02001N
+133,liên quan,W02001T
+133,liên tục,W02002
+133,liền sau,W02003
+133,liền trước,W02004
+133,liệt (liệt tay chân),W02005
+134,liều lĩnh,W02006
+134,liều mình,W02008
+134,linh hồn,W02010
+134,lĩnh hội,W02011
+134,lĩnh vực,W02012B
+134,lĩnh vực,W02012N
+134,lĩnh vực,W02012T
+134,lo sợ,W02016
+134,lò xo,W02018
+134,lọ hoa,W02019
+134,lọ mực,W02020
+134,loa,W02021
+134,loài vật,W02024B
+134,loài vật,W02024N
+134,loài vật,W02024T
+134,loạn thị,W02025
+134,lon bia,W02026
+134,Long An,W02027
+134,lọng,W02032
+134,lỗi chính tả,W02035
+135,lỗi lầm,W02036
+135,lối đi,W02037
+135,lông,W02039
+135,lông gà,W02040
+135,lồng bàn,W02041
+135,lồng chim,W02042
+135,lồng tiếng,W02043
+135,lơ lửng,W02046
+135,lời giải,W02047
+135,lời nói,W02048
+135,lợi ích,W02049
+135,lớp,W02052
+135,lớp phó,W02055
+135,lớp trưởng,W02057
+135,lũ quét,W02059
+135,lúa,W02060
+135,luật chơi,W02064B
+135,luật chơi,W02064N
+135,luật chơi,W02064T
+135,luật lệ,W02065
+136,lúc nào,W02066B
+136,lúc nào,W02066N
+136,lúc nào,W02066T
+136,lục địa,W02067
+136,lục giác,W02068
+136,lùi bước,W02070
+136,lúng túng,W02071
+136,lũy tre,W02073
+136,luyện tập,W02074
+136,luyện từ và câu,W02075
+136,lửa,W02076
+136,lược,W02077
+136,lười,W02078B
+136,lười,W02078N
+136,lười,W02078T
+136,lười học,W02079B
+136,lười học,W02079N
+136,lười học,W02079T
+136,lưỡi,W02080
+136,lưỡi câu,W02081
+137,lưới,W02083
+137,lượm,W02084
+137,lương thực,W02090
+137,lướt ván,W02091
+137,cây thông,W02096
+137,dự trữ,W02097
+137,lưu ý,W02098
+137,lựu,W02099
+137,lựu đạn,W02100
+137,ma,W02104
+137,ma cà rồng,W02105
+137,ma quỷ,W02106
+137,ma sát,W02107
+137,ma túy,W02108
+137,mã vạch,W02109
+137,má (giống: mẹ),W02110
+137,mạch lạc,W02112
+137,mạch máu,W02113
+137,mái chèo,W02116
+137,mái hiên,W02117
+138,mái nhà,W02118
+138,mái tóc,W02119
+138,màn,W02120B
+138,màn,W02120N
+138,màn,W02120T
+138,mạng lưới,W02125
+138,mạnh bạo (giống: mạnh dạn),W02129
+138,mạnh mẽ,W02131
+138,màu cam,W02132
+138,màu đen,W02133B
+138,màu đỏ,W02134
+138,màu nâu,W02137B
+138,màu nâu,W02137N
+138,màu nâu,W02137T
+138,màu nhiệm,W02138
+138,màu trắng,W02140B
+138,màu trắng,W02140N
+138,màu trắng,W02140T
+138,màu xanh da trời,W02142B
+138,màu xanh da trời,W02142N
+139,màu xanh da trời,W02142T
+139,màu xanh lá cây,W02143B
+139,màu xanh lá cây,W02143N
+139,màu xanh lá cây,W02143T
+139,má,W02144
+139,máy ảnh,W02145
+139,máy bơm,W02146
+139,máy chiếu,W02147
+139,máy in,W02148B
+139,máy in,W02148N
+139,máy in,W02148T
+139,máy khâu,W02149
+139,máy quay,W02150
+139,máy tính (laptop),W02151
+139,máy tính bỏ túi,W02152
+139,mắc áo,W02155
+139,mặc,W02156
+139,mặc kệ,W02159
+139,mặc quần áo,W02160
+139,mắm,W02161
+140,măng,W02162
+140,mắng,W02164B
+140,mắng,W02164N
+140,mắng,W02164T
+140,mặt,W02166
+140,mặt đất,W02171
+140,mặt vuông,W02172
+140,mặt nạ,W02173
+140,mặt dài,W02175
+140,mâm cơm,W02177
+140,mâm ngũ quả,W02178B
+140,mâm ngũ quả,W02178N
+140,mâm ngũ quả,W02178T
+140,mầm cây,W02180
+140,mầm non,W02181
+140,mất ngủ,W02182
+140,mất trí,W02183
+140,mật khẩu,W02187B
+140,mật khẩu,W02187N
+140,mật khẩu,W02187T
+141,mật ong,W02189
+141,mẫu số,W02191
+141,mẫu số bé,W02192
+141,mẫu số chung,W02193
+141,mẫu số lớn,W02194
+141,mây,W02195
+141,mấy giờ?,W02196
+141,mét (m),W02197
+141,mét khối (m3),W02198
+141,mét vuông (m2),W02199
+141,Mexico (nước Mexico),W02200B
+141,Mexico (nước Mexico),W02200N
+141,Mexico (nước Mexico),W02200T
+141,mê say (như: say mê),W02202
+141,mê tín,W02203
+141,mềm mại,W02204
+141,mênh mông,W02205
+141,mi-li-mét (mm),W02208
+141,mĩ thuật,W02209
+141,miền Bắc Việt Nam,W02211
+142,miền Nam Việt Nam,W02212
+142,miêu tả,W02214
+142,minh hoạ,W02215
+142,khoan (khoan đã),W02217
+142,móc áo,W02218
+142,Mặt trời mọc,W02219
+142,mõm,W02220
+142,muốn,W02221B
+142,muốn,W02221N
+142,muốn,W02221T
+142,Mặt trời lặn,W02222
+142,móng chân,W02223
+142,móng tay,W02225
+142,móng vuốt,W02226
+142,mô hình,W02227
+142,mồ côi,W02229
+142,mồ côi cha mẹ,W02230
+142,mồ hôi,W02231
+142,mộc nhĩ,W02234
+142,môi,W02235
+143,môi trường,W02236
+143,mỗi,W02237
+143,môn Âm nhạc,W02238
+143,môn Đạo đức,W02239B
+143,môn Đạo đức,W02239N
+143,môn Đạo đức,W02239T
+143,môn Giáo dục công dân,W02240N
+143,môn Giáo dục thể chất,W02241
+143,môn Khoa học,W02242
+143,môn Kĩ thuật,W02243
+143,môn Kĩ thuật,W02243B
+143,môn Kĩ thuật,W02243N
+143,môn Kĩ thuật,W02243T
+143,môn Lịch sử,W02244B
+143,môn Lịch sử,W02244N
+143,môn Lịch sử,W02244T
+143,môn Mĩ thuật,W02245
+143,môn Ngoại ngữ,W02246
+143,môn Sinh học,W02247
+143,môn Tiếng Việt,W02248
+144,môn Tin học và Công nghệ,W02249
+144,môn Toán,W02250
+144,môn Tự nhiên và Xã hội,W02251
+144,một cặp,W02252
+144,một đôi,W02253
+144,một mình,W02254
+144,mơ ngủ,W02255
+144,mơ ước,W02256
+144,mở,W02257
+144,mở cửa,W02258
+144,mở đầu,W02259
+144,mở màn,W02260
+144,mở rộng,W02261
+144,mớ rau,W02262
+144,mời,W02263
+144,mới,W02264B
+144,mới,W02264N
+144,mới,W02264T
+144,mũ lưỡi trai,W02265
+144,mua bán,W02266
+145,mua vé,W02267
+145,mùa đông,W02269
+145,mùa hè,W02270B
+145,mùa hè,W02270N
+145,mùa hè,W02270T
+145,mùa thu,W02271
+145,mùa xuân,W02272B
+145,mùa xuân,W02272N
+145,mùa xuân,W02272T
+145,múa rối,W02273
+145,mũ,W02275
+145,múa,W02276
+145,múa lân,W02277
+145,múa sạp,W02278
+145,mục lục,W02279
+145,mui xe,W02280
+145,muộn,W02281
+145,mưa phùn,W02282
+145,mứt,W02283
+145,Nam bán cầu,W02284
+146,Nam Định,W02285
+146,nạn nhân,W02289
+146,"náo động, náo nhiệt",W02290
+146,náo nức,W02291
+146,nạp điện,W02292B
+146,nạp điện,W02292N
+146,nạp điện,W02292T
+146,năm ngoái,W02294
+146,nằm,W02295
+146,nắn nót,W02296
+146,năng khiếu,W02297
+146,năng lực,W02298
+146,nặn,W02300
+146,nặng hơn,W02301
+146,nắp,W02302
+146,nấm,W02303
+146,nẻ,W02304
+146,nén,W02305
+146,nét mặt,W02311
+146,nếm,W02321
+147,nền nhà,W02322
+147,nến,W02323
+147,ngà voi,W02324
+147,ngã ba,W02325
+147,ngày khai trường,W02327B
+147,ngày Nhà giáo Việt nam,W02328N
+147,ngày Nhà giáo Việt nam,W02328T
+147,ngày tháng,W02329B
+147,ngày tháng,W02329N
+147,ngày tháng,W02329T
+147,ngã,W02330
+147,ngạc nhiên,W02332
+147,ngành nghề,W02333
+147,ngày đêm,W02334
+147,ngày nay,W02336B
+147,ngày nay,W02336N
+147,ngày nay,W02336T
+147,ngày Quốc tế Lao động,W02337B
+147,ngày Quốc tế Lao động,W02337N
+147,ngày Quốc tế Lao động,W02337T
+148,ngày sinh,W02338B
+148,ngày sinh,W02338N
+148,ngày sinh,W02338T
+148,ngày xưa,W02339
+148,ngăn cản,W02340
+148,ngăn chặn,W02342
+148,ngắn,W02343
+148,ngắn nhất,W02344
+148,ngắt hoa,W02345B
+148,ngắt hoa,W02345N
+148,ngâm hạt,W02346
+148,ngân hàng,W02348
+148,ngẩng đầu,W02349
+148,ngập lụt,W02350
+148,ngây thơ,W02352
+148,nghe,W02353
+148,nghé,W02354B
+148,nghé,W02354N
+148,nghé,W02354T
+148,nghẹn ngào,W02355
+149,nghệ sĩ,W02356
+149,nghệ thuật,W02357B
+149,nghệ thuật,W02357N
+149,nghệ thuật,W02357T
+149,nghi ngờ,W02359B
+149,nghi ngờ,W02359N
+149,nghi ngờ,W02359T
+149,nghỉ hè,W02360B
+149,nghỉ hè,W02360N
+149,nghỉ hè,W02360T
+149,nghỉ học,W02361B
+149,nghỉ học,W02361N
+149,nghỉ học,W02361T
+149,nghỉ hưu,W02362
+149,nghỉ mát,W02363
+149,nghỉ ngơi,W02364
+149,nghĩa đen,W02366
+149,nghiên cứu,W02367
+149,nghĩ,W02368
+149,nghị lực,W02369
+150,nghĩa bóng,W02370
+150,nghĩa trang,W02371
+150,nghiêm khắc,W02373B
+150,nghiêm khắc,W02373N
+150,nghiêm khắc,W02373T
+150,nghiêm túc,W02374
+150,nghiến răng,W02375
+150,ngoại hình,W02378
+150,xâm hại tình dục,W02380
+150,ngoan ngoãn,W02381
+150,ngoắc tay,W02382
+150,ngoặc đơn,W02383
+150,ngoặc kép,W02384
+150,ngoằn ngoèo,W02385
+150,ngói,W02387
+150,ngon giấc,W02388
+150,ngon miệng,W02390
+150,ngõ,W02391
+150,ngón chân,W02392
+150,ngón tay,W02393
+151,ngọn cây,W02394B
+151,ngọn cây,W02394N
+151,ngọn cây,W02394T
+151,ngô,W02395N
+151,ngô,W02395T
+151,ngộ độc,W02398
+151,ngộ nghĩnh,W02399
+151,ngồi,W02400B
+151,ngồi,W02400N
+151,ngồi,W02400T
+151,ngôn ngữ,W02401
+151,ngũ quả,W02402B
+151,ngũ quả,W02402N
+151,ngũ quả,W02402T
+151,nguệch ngoạc,W02403
+151,nguồn gốc,W02404
+151,nguy hiểm,W02405B
+151,nguy hiểm,W02405N
+151,nguy hiểm,W02405T
+151,nguyên nhân,W02407B
+152,nguyện vọng,W02418
+152,ngữ điệu,W02421
+152,ngước nhìn,W02422
+152,ngược đãi,W02423
+152,ngược lại,W02424
+152,người bán hàng,W02426
+152,người gửi,W02428
+152,người lái xe (ô tô),W02430B
+152,người lái xe (ô tô),W02430N
+152,người lái xe (ô tô),W02430T
+152,người lạ,W02431
+152,người máy,W02432
+152,người nhận,W02433
+152,người quen,W02435B
+152,người quen,W02435N
+152,người quen,W02435T
+152,người xấu,W02437B
+152,người xấu,W02437N
+152,người xấu,W02437T
+152,người xưa,W02438B
+153,người xưa,W02438N
+153,người xưa,W02438T
+153,người yêu,W02439B
+153,người yêu,W02439N
+153,người yêu,W02439T
+153,ngưỡng mộ,W02440
+153,nhà bác học,W02441
+153,nhà cửa,W02443
+153,nhà sàn,W02447
+153,nhà tầng,W02448
+153,nhà thơ,W02449
+153,nhà thờ,W02450
+153,nhà thờ Đức Bà,W02451
+153,nhà toán học,W02453
+153,nhà trường,W02455B
+153,nhà trường,W02455N
+153,nhà trường,W02455T
+153,nhà tù,W02456
+153,nhãn vở,W02461B
+153,nhãn vở,W02461N
+154,nhãn vở,W02461T
+154,nhanh nhẹn,W02462
+154,nhào lộn,W02463
+154,nhát gan,W02464
+154,nhảy cao,W02465
+154,nhảy dù,W02466
+154,nhảy múa,W02467
+154,nháy mắt,W02468
+154,nhạy cảm,W02469
+154,nhắc nhở,W02470
+154,nhăn mặt,W02471
+154,nhặt rau,W02472
+154,nhân (Toán học),W02473B
+154,nhân (Toán học),W02473N
+154,nhân (Toán học),W02473T
+154,nhân cách hoá,W02476
+154,nhân chứng,W02477
+154,nhân dân,W02478
+154,nhân hậu,W02479B
+154,nhân hậu,W02479N
+155,nhân hậu,W02479T
+155,nhân vật,W02481
+155,nhận hàng,W02483
+155,nhận,W02485
+155,nhận thức,W02486
+155,nhận xét,W02487
+155,nhấp nháy,W02488
+155,nhập trường,W02490B
+155,nhập trường,W02490N
+155,nhập trường,W02490T
+155,Nhật (nước Nhật),W02492B
+155,Nhật (nước Nhật),W02492N
+155,Nhật (nước Nhật),W02492T
+155,nhẹ hơn,W02493
+155,nhẹ nhàng,W02494
+155,nhi đồng,W02495
+155,nhiệt kế,W02497B
+155,nhiệt kế,W02497N
+155,nhiệt kế,W02497T
+155,nhiều hơn,W02498
+156,nhìn,W02499
+156,nhỏ/ nhỏ bé,W02500
+156,nhỏ hơn,W02501
+156,nhỏ tuổi,W02502
+156,nhóm,W02503
+156,nhọn,W02504
+156,nhọn hoắt,W02505
+156,nhổ củ cải,W02506
+156,nhu cầu,W02508
+156,nhụy hoa,W02512
+156,như hình với bóng,W02513
+156,nhược điểm,W02514
+156,nhường nhịn,W02515
+156,niềm vui,W02517
+156,Ninh Bình,W02518
+156,Ninh Thuận,W02519
+156,no,W02520B
+156,no,W02520N
+156,no,W02520T
+156,nỏ,W02521
+157,nóc nhà,W02522
+157,nói chuyện,W02523
+157,nói dối,W02524
+157,nói leo,W02526
+157,nón,W02527
+157,nô lệ,W02528
+157,nổ lốp xe,W02529
+157,nổ mìn,W02530
+157,nổ súng,W02531
+157,nồi,W02532
+157,nồi cơm điện,W02534
+157,nổi bật,W02535
+157,nổi dậy,W02536
+157,nổi giận,W02537
+157,nổi nóng,W02538
+157,nối tiếp,W02539
+157,nội dung,W02540B
+157,nội dung,W02540N
+157,nội dung,W02540T
+157,nội quy,W02541
+158,nội tiếp,W02542
+158,nông nghiệp,W02544
+158,nông thôn,W02546
+158,nốt ruồi,W02548
+158,nơ,W02549
+158,nơi chốn,W02550
+158,núi lửa,W02551
+158,nước mắt,W02554
+158,nước Việt nam,W02555B
+158,nước Việt nam,W02555N
+158,nước Việt nam,W02555T
+158,Oa-sinh-tơn,W02556
+158,óc,W02557
+158,ô ăn quan,W02558
+158,ô nhiễm,W02559
+158,ô tô,W02561
+158,ốc vít,W02564
+158,ôm,W02565
+158,ốm đau,W02567
+158,ôn luyện,W02569
+159,ôn tập,W02570
+159,ổn định,W02571
+159,ông già,W02572
+159,ông ngoại,W02575B
+159,ông ngoại,W02575N
+159,ông ngoại,W02575T
+159,ông nội,W02576B
+159,ông nội,W02576N
+159,ông nội,W02576T
+159,ống nghe,W02577
+159,ống nhòm,W02578
+159,ống nước,W02579
+159,ở ngoài,W02580B
+159,ở ngoài,W02580N
+159,ở ngoài,W02580T
+159,ở trong,W02581
+159,Pa-ki-xtan (nước Pa-ki-xtan),W02582
+159,Pê-ru (nước Pê-ru),W02583
+159,pha cà phê,W02584
+159,pha chế,W02585
+160,pha lê,W02586
+160,phà,W02587
+160,phá,W02589B
+160,phá,W02589N
+160,phá,W02589T
+160,phản bội,W02597B
+160,phản bội,W02597N
+160,phản bội,W02597T
+160,phản động,W02598
+160,phản xạ,W02600
+160,phao,W02602
+160,pháo hoa,W02605
+160,pháo sáng,W02606
+160,phát biểu,W02608
+160,phát động,W02609
+160,phát hiện,W02610
+160,phân công,W02614
+160,phân loại,W02615
+160,phân số,W02616
+160,hai phân số bằng nhau,W02617
+161,phân số thập phân,W02618
+161,phân số tối giản,W02619
+161,phân tích,W02620
+161,giữ nguyên,W02626
+161,phần trăm,W02628
+161,phấn (viết bảng),W02630B
+161,phấn (viết bảng),W02630N
+161,phấn (viết bảng),W02630T
+161,phấn đấu,W02631
+161,phấn trang điểm,W02634
+161,phấp phới,W02635
+161,phật (tượng),W02637
+161,phép mầu,W02640
+161,phép tính,W02641
+161,phê bình,W02643
+161,phễu,W02644
+161,phi công,W02645
+161,phi ngựa,W02647
+161,phi tiêu,W02648
+161,phích nước,W02649
+162,phiên dịch,W02651B
+162,phiên dịch,W02651N
+162,phiên dịch,W02651T
+162,Phi-líp-pin (nước Phi-líp-pin),W02654B
+162,Phi-líp-pin (nước Phi-líp-pin),W02654N
+162,Phi-líp-pin (nước Phi-líp-pin),W02654T
+162,phim hoạt hình,W02656B
+162,phim hoạt hình,W02656N
+162,phim hoạt hình,W02656T
+162,phim tài liệu,W02657
+162,phim truyện,W02658B
+162,phim truyện,W02658N
+162,phim truyện,W02658T
+162,phong bì,W02660
+162,phong cách,W02661
+162,phong kiến,W02662
+162,phong trào,W02665
+162,phong tục,W02666
+162,phòng âm nhạc,W02667
+162,phòng bệnh,W02668
+163,phòng chống,W02669
+163,phòng chức năng,W02670
+163,phòng đa năng,W02672
+163,phòng học tin học,W02675
+163,phòng máy tính,W02677
+163,phòng mĩ thuật,W02678
+163,phòng thí nghiệm,W02679
+163,phòng thư viện,W02680
+163,phòng y tế,W02682
+163,phô tô,W02685
+163,phổ biến,W02686
+163,phố,W02689
+163,phố cổ,W02690
+163,phố cổ Hội an,W02691
+163,phổi,W02693
+163,phở,W02696B
+163,phở,W02696N
+163,phở,W02696T
+163,phở cuốn,W02697B
+163,phở cuốn,W02697N
+164,phở cuốn,W02697T
+164,phơi quần áo,W02698
+164,phù hợp,W02699
+164,phủ nhận,W02701
+164,Phú Thọ,W02702
+164,phụ huynh,W02704
+164,phục hồi,W02707
+164,phục vụ,W02709
+164,phun nước,W02710
+164,phức tạp,W02712
+164,phương hướng,W02713
+164,phương pháp,W02714
+164,phương tiện,W02715
+164,phương tiện giao thông,W02716B
+164,phương tiện giao thông,W02716N
+164,phương tiện giao thông,W02716T
+164,pi-a-nô (dương cầm),W02718
+164,quả,W02721
+164,quả bầu,W02722
+164,quả bưởi,W02724B
+165,quả bưởi,W02724N
+165,quả bưởi,W02724T
+165,quả cam,W02725
+165,quả chanh,W02728
+165,quả chôm chôm,W02729
+165,quả chuối,W02730
+165,quả dưa hấu,W02731B
+165,quả dưa hấu,W02731N
+165,quả dưa hấu,W02731T
+165,quả dừa,W02732B
+165,quả dừa,W02732N
+165,quả dừa,W02732T
+165,quả dừa xiêm,W02733B
+165,quả dừa xiêm,W02733N
+165,quả dừa xiêm,W02733T
+165,quả đất,W02734
+165,quả địa cầu,W02735
+165,quả đu đủ,W02737B
+165,quả đu đủ,W02737N
+165,quả đu đủ,W02737T
+166,quả gấc,W02739
+166,quả hồng,W02740
+166,quả hồng xiêm,W02741
+166,quả khế,W02742B
+166,quả khế,W02742N
+166,quả khế,W02742T
+166,quả lê,W02744
+166,quả mít,W02745
+166,quả mướp,W02746
+166,quả na,W02747
+166,quả nhãn,W02748B
+166,quả nhãn,W02748N
+166,quả nhãn,W02748T
+166,quả nho,W02749
+166,quả ổi,W02750
+166,quả ớt,W02751
+166,quả quất,W02752
+166,quả quýt,W02753
+166,quả roi,W02754B
+166,quả roi,W02754N
+167,quả roi,W02754T
+167,quả sầu riêng,W02755
+167,quả su su,W02756
+167,quả táo,W02757B
+167,quả táo,W02757N
+167,quả thanh long,W02758
+167,quả vải,W02759
+167,quả xoài,W02760
+167,quá cảnh,W02761
+167,quan điểm,W02762
+167,quan hệ,W02763
+167,quan tâm,W02765
+167,quan trọng,W02766
+167,quang hợp,W02769
+167,quàng khăn,W02771
+167,Quảng Bình,W02772
+167,quảng cáo,W02773
+167,Quảng Ngãi,W02774
+167,Quảng Ninh,W02775
+167,quát mắng,W02776
+168,quạt cây,W02777
+168,quay cóp,W02778
+168,quay phim,W02779
+168,quà,W02780
+168,Quảng Nam,W02781
+168,Quảng Trị,W02782
+168,quạt treo tường,W02783
+168,quân đội,W02784B
+168,quân đội,W02784N
+168,quần âu,W02786
+168,quần bò,W02787B
+168,quần bò,W02787N
+168,quần bò,W02787T
+168,quần đùi,W02788
+168,quần yếm,W02789
+168,quận,W02790B
+168,quận,W02790N
+168,quận,W02790T
+168,quét dọn,W02794
+168,quét nhà,W02795
+169,quê,W02797B
+169,quê,W02797N
+169,quê,W02797T
+169,quên,W02798
+169,quốc ca,W02799
+169,quốc gia,W02800
+169,quốc hội,W02801
+169,quốc khánh,W02802
+169,đề phòng,W02804
+169,quốc tế,W02805
+169,Trần Quốc Toản,W02806
+169,Quốc Tử Giám,W02807
+169,quy định,W02808
+169,quy đồng mẫu số,W02809
+169,quy nạp,W02810
+169,quy tắc,W02811
+169,quý giá,W02812
+169,quyền lợi,W02813B
+169,quyền lợi,W02813N
+169,quyền lợi,W02813T
+170,quyết định,W02814B
+170,quyết định,W02814N
+170,quyết định,W02814T
+170,quỳ,W02815
+170,quý hiếm,W02816
+170,quyển vở,W02818B
+170,quyển vở,W02818N
+170,quyển vở,W02818T
+170,quyết tâm,W02820B
+170,quyết tâm,W02820N
+170,quyết tâm,W02820T
+170,ra lệnh,W02823
+170,ra ngoài,W02825B
+170,ra ngoài,W02825N
+170,ra ngoài,W02825T
+170,rách,W02828
+170,rạch,W02831
+170,rào chắn,W02832
+170,rạp chiếu phim,W02833
+170,rau,W02835
+171,rau bắp cải,W02836
+171,rau cải,W02837
+171,rau cải thảo,W02839
+171,rau dền,W02841
+171,rau mùng tơi,W02844
+171,rau ngót,W02845
+171,rằm trung thu,W02847B
+171,rằm trung thu,W02847N
+171,rằm trung thu,W02847T
+171,răng,W02848
+171,răng cưa,W02849
+171,râu,W02851
+171,rẽ phải,W02852
+171,rèn sắt,W02853
+171,rèn luyện,W02854
+171,reo hò,W02855
+171,rễ cây,W02856
+171,rễ chùm,W02857
+171,rễ cọc,W02858
+171,rế,W02859
+172,riêng biệt,W02860
+172,riêng tư,W02861
+172,rình mò,W02862
+172,rìu,W02863
+172,rõ ràng,W02864B
+172,rõ ràng,W02864T
+172,róc rách,W02865N
+172,rón rén,W02866
+172,rong biển,W02867
+172,rong chơi,W02868B
+172,rong chơi,W02868N
+172,rong chơi,W02868T
+172,rổ,W02870
+172,rộng lớn,W02872
+172,rộng rãi,W02873
+172,rơi,W02874
+172,rơm,W02875
+172,ru ngủ,W02876
+172,rụng tóc (đt),W02877
+172,ruộng bậc thang,W02878
+173,ruột già,W02879
+173,ruột non,W02880
+173,rút gọn,W02883
+173,rút gọn phân số,W02884
+173,rửa bát,W02885
+173,rửa chân,W02886
+173,rửa mặt,W02887
+173,rửa tay,W02888
+173,rừng núi,W02892
+173,rừng rậm,W02893
+173,rừng thưa,W02894
+173,rước đèn,W02895
+173,rưỡi,W02897B
+173,rưỡi,W02897N
+173,rưỡi,W02897T
+173,rượu,W02898B
+173,rượu,W02898N
+173,rượu,W02898T
+173,sách,W02900
+173,sách giáo khoa,W02901
+174,sách toán,W02902
+174,san hô,W02903
+174,san sẻ,W02906
+174,sản xuất,W02912
+174,sáng chói,W02915
+174,sáng kiến,W02916
+174,sáng tạo,W02918
+174,sao,W02919N
+174,sao,W02919T
+174,sao chép,W02921
+174,đỏ thắm,W02922
+174,sáo,W02923
+174,Sapa,W02925
+174,sau,W02926
+174,say sưa,W02927
+174,săn bắn,W02929
+174,sắp xếp,W02931B
+174,sắp xếp,W02931N
+174,sắp xếp,W02931T
+174,sắt,W02932B
+175,sắt,W02932N
+175,sắt,W02932T
+175,sấm chớp,W02934
+175,sấm sét,W02935
+175,sân chơi,W02936B
+175,sân chơi,W02936T
+175,sân khấu,W02937
+175,sân nhà,W02938
+175,sân thượng,W02939
+175,sân trường,W02940B
+175,sân trường,W02940N
+175,sân trường,W02940T
+175,sân vận động,W02941
+175,sâu,W02943
+175,sâu bọ,W02944
+175,sâu răng,W02945
+175,sâu thẳm,W02946
+175,sĩ diện,W02947B
+175,sĩ diện,W02947N
+175,siêng năng,W02948
+176,siêu âm,W02949
+176,siêu thị,W02951
+176,siêu tốc,W02952
+176,sinh đẻ,W02953B
+176,sinh đẻ,W02953N
+176,sinh đẻ,W02953T
+176,sinh động,W02954
+176,sinh hoạt,W02955
+176,sinh sản,W02956B
+176,sinh sản,W02956N
+176,sinh sản,W02956T
+176,sinh sống,W02957
+176,sinh tố,W02958
+176,sinh vật,W02960
+176,Sóc Trăng,W02961
+176,soi,W02962
+176,son môi,W02964
+176,song song,W02965
+176,sóng biển,W02967
+176,sóng thần,W02968
+177,sổ đầu bài,W02970
+177,sổ điểm danh,W02972
+177,sổ tay,W02974
+177,số bé,W02975
+177,số chẵn,W02979
+177,số chín,W02981
+177,số đo,W02987
+177,số lẻ,W02989
+177,số liền sau,W02990
+177,số liền trước,W02991
+177,số lớn,W02992
+177,số thập phân,W02996
+177,sông Hồng,W03005
+177,sốt,W03008
+177,sơ đồ,W03010N
+177,sơ đồ,W03010T
+177,sơ mi,W03011B
+177,sơ mi,W03011N
+177,sơ mi,W03011T
+177,sợi,W03014
+178,sợi chỉ,W03015
+178,sợi dây,W03016
+178,sợi len,W03017
+178,sơn,W03018
+178,súc miệng,W03021
+178,sum họp,W03023
+178,suối,W03024
+178,suy nghĩ,W03025N
+178,suy nghĩ,W03025T
+178,sự thật,W03031
+178,sửa chữa,W03034
+178,sữa bò,W03036B
+178,sữa bò,W03036N
+178,sữa bò,W03036T
+178,sữa bột,W03037B
+178,sữa bột,W03037N
+178,sữa bột,W03037T
+178,sữa dê,W03038B
+178,sữa dê,W03038N
+178,sữa dê,W03038T
+179,sữa đặc,W03039
+179,sữa hộp,W03040B
+179,sữa hộp,W03040N
+179,sữa hộp,W03040T
+179,sữa rửa mặt,W03041
+179,sữa,W03042B
+179,sữa,W03042N
+179,sữa,W03042T
+179,sức khỏe,W03043
+179,sừng,W03046
+179,sừng bò,W03047
+179,sừng trâu,W03048
+179,sương gió,W03050
+179,sườn,W03051
+179,tác dụng,W03054
+179,tác động,W03055
+179,tác giả,W03056
+179,tác phẩm,W03058
+179,tách,W03059
+179,tách lớp,W03060
+180,tai,W03061
+180,tai nạn,W03062
+180,tài giỏi,W03063
+180,tài năng,W03064
+180,tài trợ,W03067
+180,tái phát,W03070
+180,tái phạm,W03071B
+180,tái phạm,W03071N
+180,tái phạm,W03071T
+180,đảo Trường Sa,W03073
+180,tam giác,W03074
+180,tạm biệt,W03075
+180,đảo Hoàng Sa,W03076
+180,tán thành,W03077
+180,tạo dáng,W03081
+180,tát,W03084
+180,tàu hoả,W03085B
+180,tàu hoả,W03085N
+180,tàu hoả,W03085T
+180,tàu ngầm,W03086
+181,tàu thuyền,W03087
+181,tàu thủy,W03088
+181,taxi,W03089
+181,tay,W03090
+181,tay phải,W03095
+181,tay trái,W03097
+181,tặc lưỡi,W03099
+181,tăm,W03100
+181,tâm thần,W03103
+181,tấm vải,W03105B
+181,tấm vải,W03105N
+181,tấm vải,W03105T
+181,tấn công,W03107
+181,tập hợp (Toán học),W03110
+181,tập hợp rỗng,W03111
+181,tập làm văn,W03112
+181,tập thể,W03115N
+181,tập thể dục,W03116B
+181,tập thể dục,W03116T
+181,tập trung,W03117
+182,tập viết,W03118
+182,Tây Bắc,W03121
+182,Tây Nguyên,W03123
+182,Tây Ninh,W03124
+182,tên là gì?,W03129N
+182,tên là gì?,W03129T
+182,tên riêng,W03130N
+182,Tết Âm,W03131N
+182,Tết Âm,W03131T
+182,Tết Dương,W03132N
+182,Tết Dương,W03132T
+182,Tết Thiếu nhi,W03133N
+182,Tết Trung thu,W03134B
+182,Tết Trung thu,W03134N
+182,Tết Trung thu,W03134T
+182,tha,W03135
+182,tha mồi,W03136
+182,tha thứ,W03138B
+182,tha thứ,W03138N
+182,tha thứ,W03138T
+183,thả diều,W03139
+183,thả mồi,W03140
+183,thác,W03141
+183,thái độ,W03148B
+183,thái độ,W03148N
+183,thái độ,W03148T
+183,Thái Nguyên,W03150
+183,tham dự,W03153B
+183,tham dự,W03153N
+183,tham dự,W03153T
+183,tham khảo,W03154
+183,tham lam,W03155
+183,tham quan,W03156B
+183,tham quan,W03156N
+183,tham quan,W03156T
+183,thám tử,W03160
+183,thản nhiên,W03163
+183,thán phục,W03164
+183,cầu thang,W03165
+183,tháng,W03167B
+184,tháng,W03167N
+184,tháng,W03167T
+184,Thanh Hóa,W03168
+184,thanh niên,W03171
+184,đường ray xe lửa,W03172
+184,thành công,W03173
+184,thành lập,W03175
+184,thành lập,W03175B
+184,thành lập,W03175N
+184,thành lập,W03175T
+184,thành thạo,W03180
+184,thành thị,W03181
+184,thành viên,W03185
+184,thánh địa Mỹ Sơn,W03186
+184,tháo gỡ,W03191
+184,tháp,W03192
+184,tháp Rùa,W03193
+184,thắc mắc,W03196
+184,thăm hỏi,W03197B
+184,thăm hỏi,W03197N
+185,thăm hỏi,W03197T
+185,thăng bằng,W03199
+185,thẳng hàng (Toán học),W03201
+185,thẳng tắp,W03202
+185,thắng lợi,W03203
+185,thân cây,W03204B
+185,thân cây,W03204N
+185,thân cây,W03204T
+185,thân hình,W03205
+185,thân thiết,W03207
+185,thân thiện,W03208
+185,thần chết,W03210
+185,thần kinh,W03211N
+185,thận,W03214
+185,thấp hơn,W03215
+185,thấp nhất,W03216
+185,thập thò,W03219
+185,thật thà,W03221
+185,thầy cô,W03222B
+185,thầy cô,W03222N
+186,thầy cô,W03222T
+186,thầy cúng,W03223
+186,thầy giáo,W03224B
+186,thầy giáo,W03224N
+186,thầy giáo,W03224T
+186,theo dõi,W03228
+186,theo đuổi,W03229
+186,thẻ,W03230
+186,thét,W03232
+186,thề,W03233
+186,thế hệ,W03237
+186,tri kỉ,W03238
+186,thế nào?,W03239B
+186,thế nào?,W03239N
+186,thế nào?,W03239T
+186,thêm,W03240
+186,thềm,W03241
+186,thêu,W03242B
+186,thêu,W03242N
+186,thi cử,W03243B
+187,thi cử,W03243N
+187,thi cử,W03243T
+187,thị giác,W03247
+187,thị lực,W03248
+187,thìa,W03251B
+187,thìa,W03251N
+187,thìa,W03251T
+187,thích thú,W03252B
+187,thích thú,W03252N
+187,thích thú,W03252T
+187,thiên đình,W03254
+187,thiên nhiên,W03256
+187,thiên thần,W03258
+187,thiếp đi,W03262
+187,thiếp mời,W03263
+187,thiết kế,W03265B
+187,thiết kế,W03265N
+187,thiết kế,W03265T
+187,thiệt thòi,W03268
+187,thiếu nhi,W03269
+188,thiếu niên,W03270
+188,thím,W03272
+188,thoát hiểm,W03276
+188,thóc (gạo),W03278
+188,thổi,W03281
+188,thổi bóng,W03282
+188,thổi kèn,W03283
+188,thông báo,W03285
+188,thông cảm,W03286
+188,thông minh,W03288B
+188,thông minh,W03288N
+188,thông minh,W03288T
+188,thông qua,W03289
+188,thông thường,W03291
+188,thông tin,W03292B
+188,thông tin,W03292N
+188,thông tin,W03292T
+188,thống nhất,W03294
+188,tuổi thơ ấu,W03297
+188,thờ cúng,W03299
+189,thở dài,W03300
+189,thời gian biểu,W03303
+189,thở,W03305
+189,thợ kim hoàn,W03306
+189,thợ rèn,W03308
+189,thợ thêu,W03309
+189,thơm,W03314B
+189,thơm,W03314N
+189,thơm,W03314T
+189,thu mua,W03316
+189,thu nhỏ,W03317
+189,thu thập,W03318
+189,thù lao,W03319
+189,thủ công,W03320B
+189,thủ công,W03320N
+189,thủ công,W03320T
+189,thủ tướng,W03321B
+189,thủ tướng,W03321N
+189,thủ tướng,W03321T
+189,thú dữ,W03323B
+190,thú dữ,W03323N
+190,thú dữ,W03323T
+190,thú y,W03324B
+190,thú y,W03324N
+190,thú y,W03324T
+190,thuận lợi,W03326
+190,ngữ pháp,W03327B
+190,ngữ pháp,W03327N
+190,ngữ pháp,W03327T
+190,thúc đẩy,W03328
+190,thuê,W03329B
+190,thuê,W03329N
+190,thuê,W03329T
+190,thùng,W03330
+190,thủng,W03331
+190,thuốc bắc,W03333
+190,thuốc bổ,W03334
+190,thuốc lá,W03335
+190,thuộc lòng,W03338
+190,thuỷ điện,W03339B
+191,thuỷ điện,W03339N
+191,thuỷ điện,W03339T
+191,thuỷ thủ,W03341
+191,tinh trùng,W03342
+191,thủy chung,W03344
+191,Thủy Điện Hòa Bình,W03345B
+191,Thủy Điện Hòa Bình,W03345N
+191,Thủy Điện Hòa Bình,W03345T
+191,thuyền chài,W03347
+191,thuyền rồng,W03349
+191,trưởng thành,W03350
+191,thuyết phục,W03351
+191,thuyết trình,W03352
+191,thư giãn,W03354
+191,mục đích,W03355
+191,thứ tự,W03357
+191,thừa,W03359B
+191,thừa,W03359N
+191,thừa,W03359T
+191,Thừa Thiên – Huế,W03361B
+192,Thừa Thiên – Huế,W03361N
+192,Thừa Thiên – Huế,W03361T
+192,thực hành,W03364
+192,thực hiện,W03365
+192,thực phẩm,W03366
+192,thực sự,W03367
+192,thực tế,W03368
+192,thực vật,W03369
+192,thương (số),W03370
+192,bùng binh,W03371
+192,thương yêu,W03373B
+192,thương yêu,W03373N
+192,thương yêu,W03373T
+192,tỉ lệ,W03377
+192,tỉ mỉ,W03379
+192,tỉ số,W03380
+192,tỉ số phần trăm,W03381
+192,tí hon,W03383
+192,tia chớp,W03386
+192,tia nắng,W03387
+193,tia số,W03388
+193,tích (số),W03390
+193,tích cực,W03391
+193,tiếc,W03392B
+193,tiếc,W03392N
+193,tiếc,W03392T
+193,tiệc,W03393
+193,tiêm,W03394
+193,Tiền Giang,W03398
+193,tiến sĩ,W03405
+193,tiện nghi,W03407
+193,tiếng Anh,W03409B
+193,tiếng Anh,W03409N
+193,tiếng Anh,W03409T
+193,tiếng nói,W03414
+193,tiếp nhận,W03416
+193,tiếp theo,W03418
+193,tiếp thu,W03419
+193,tiếp tục,W03421B
+193,tiếp tục,W03421N
+194,tiếp tục,W03421T
+194,tiết kiệm,W03422B
+194,tiết kiệm,W03422N
+194,tiết kiệm,W03422T
+194,tiêu cực,W03424
+194,tiêu diệt,W03425
+194,tiêu hoá,W03426
+194,thụ phấn (hoa),W03427
+194,tiểu học,W03430
+194,tim,W03431
+194,tìm hiểu,W03433B
+194,tìm hiểu,W03433N
+194,tìm hiểu,W03433T
+194,tím tái,W03434
+194,tin cậy,W03435
+194,tin học,W03436
+194,tin nhắn,W03437
+194,tin tức,W03438
+194,thần kì,W03445
+194,tình cảm,W03447
+195,tình cờ,W03448
+195,tình huống,W03449
+195,thương yêu,W03450B
+195,thương yêu,W03450N
+195,thương yêu,W03450T
+195,tình yêu,W03451
+195,tĩnh lặng,W03452
+195,tính cách,W03454
+195,tính chất,W03455
+195,tính chất bằng nhau,W03456
+195,tính chất cơ bản của phân số,W03457
+195,tính chất giao hoán,W03458
+195,tính chất kết hợp,W03459
+195,tính nhẩm,W03461
+195,tính toán,W03463
+195,tính từ,W03464
+195,to lớn,W03466
+195,tò mò,W03467B
+195,tò mò,W03467T
+195,toa lét,W03469
+196,toa xe,W03471B
+196,toa xe,W03471N
+196,toa xe,W03471T
+196,toà án,W03472B
+196,toà án,W03472N
+196,toà án,W03472T
+196,tòa soạn,W03473
+196,tỏa hương,W03474
+196,toàn cầu,W03476
+196,tóc xoăn,W03479
+196,tóm cổ,W03480
+196,tóm lược,W03481
+196,tóm tắt,W03482
+196,tô màu,W03486B
+196,tô màu,W03486N
+196,tô màu,W03486T
+196,tổ chim,W03488
+196,tôn trọng,W03491
+196,tôn thờ,W03492
+196,tổ tiên,W03494
+197,tổ trưởng,W03495
+197,tôn trọng,W03501
+197,tổng (số),W03502
+197,tổng hợp,W03503
+197,tổng thống,W03505B
+197,tổng thống,W03505N
+197,tổng thống,W03505T
+197,tống tiền,W03507
+197,tờ báo,W03508B
+197,tờ báo,W03508N
+197,tờ báo,W03508T
+197,tờ giấy,W03509B
+197,tờ giấy,W03509N
+197,tờ giấy,W03509T
+197,tờ tiền,W03512
+197,Trà Vinh,W03513
+197,trách mắng,W03514
+197,trại giam,W03517
+197,trang trí,W03519
+197,trà,W03524
+198,trả (đt),W03525
+198,trả lời,W03526
+198,trách nhiệm,W03528
+198,trái nghĩa,W03531N
+198,trái nghĩa,W03531T
+198,trạm xe buýt,W03534
+198,trạm y tế,W03535
+198,tràn ngập (nước),W03536
+198,trang phục,W03537
+198,tranh luận,W03542
+198,tai nạn giao thông,W03543
+198,tránh thai,W03544
+198,trao tặng,W03545
+198,trăng,W03550B
+198,trăng,W03550N
+198,trăng,W03550T
+198,trắng muốt,W03552B
+198,trắng muốt,W03552N
+198,trắng muốt,W03552T
+198,trắng tay,W03553
+199,trầm trồ,W03554
+199,quạt trần,W03560
+199,trần nhà,W03562
+199,tự (tự làm),W03568
+199,tre,W03571B
+199,tre,W03571N
+199,tre,W03571T
+199,trêu,W03573
+199,trêu tức,W03575
+199,trí khôn,W03576
+199,trí thức,W03578
+199,triều cường,W03585
+199,triều đình,W03587
+199,trình bày,W03593
+199,trình độ,W03594
+199,trò chơi,W03599
+199,trọc đầu,W03602B
+199,trọc đầu,W03602N
+199,trọc đầu,W03602T
+199,trói tay,W03603
+200,tròn trịa (mặt),W03605
+200,trong sáng,W03606
+200,tròn,W03607
+200,trong ngoài,W03611B
+200,trong ngoài,W03611N
+200,trong ngoài,W03611T
+200,trong suốt,W03612
+200,trọng tài,W03614
+200,xe tải,W03615
+200,trộm cắp,W03618
+200,trốn chạy,W03619B
+200,trốn chạy,W03619N
+200,trốn chạy,W03619T
+200,trông chờ,W03620B
+200,trông chờ,W03620N
+200,trông chờ,W03620T
+200,trông coi,W03621
+200,trông nom,W03622B
+200,trông nom,W03622N
+200,trông nom,W03622T
+201,trống,W03624
+201,trộn (đt),W03626
+201,trở thành,W03629
+201,trú mưa,W03632
+201,trục hoành,W03633
+201,trục tung,W03634
+201,trục xuất,W03635
+201,trụi lá,W03636B
+201,trụi lá,W03636N
+201,trụi lá,W03636T
+201,trùm chăn,W03637
+201,trung bình,W03638
+201,trung điểm,W03641
+201,Trung Quốc (nước Trung Quốc),W03642B
+201,Trung Quốc (nước Trung Quốc),W03642N
+201,Trung Quốc (nước Trung Quốc),W03642T
+201,trung tâm,W03643
+201,trung thành,W03644
+201,Trung Thu,W03645B
+201,Trung Thu,W03645N
+202,Trung Thu,W03645T
+202,trung ương,W03646
+202,trúng thưởng,W03648
+202,trúng tuyển,W03649B
+202,trúng tuyển,W03649N
+202,trúng tuyển,W03649T
+202,truyền dịch,W03650
+202,truyền thông,W03653
+202,truyền thống,W03654
+202,trực nhật,W03657
+202,trứng,W03659B
+202,trứng,W03659N
+202,trứng,W03659T
+202,trường tiểu học,W03663N
+202,trường tiểu học,W03663T
+202,trực tiếp,W03665
+202,trưng bày,W03666
+202,trước,W03669B
+202,trước,W03669N
+202,trước,W03669T
+203,trường hợp,W03672
+203,trường mầm non,W03673B
+203,trường mầm non,W03673N
+203,trường mầm non,W03673T
+203,trường PTCS (cấp 2),W03674B
+203,trường PTCS (cấp 2),W03674N
+203,trường PTCS (cấp 2),W03674T
+203,trường THPT ( cấp 3),W03675B
+203,trường THPT ( cấp 3),W03675N
+203,trường THPT ( cấp 3),W03675T
+203,trưởng nhóm,W03676
+203,tù giam,W03678
+203,tụ tập,W03682
+203,tuân lệnh,W03683
+203,tuân thủ,W03684
+203,tuần,W03685B
+203,tuần,W03685N
+203,tuần,W03685T
+203,tủi thân,W03689
+203,túm tóc,W03692
+204,tung tăng,W03696
+204,tuổi thơ,W03698
+204,tuốt lúa,W03699
+204,tuỷ sống,W03700
+204,tuyên bố,W03701
+204,tuyên ngôn,W03702
+204,tuyệt vọng,W03708
+204,từ bỏ,W03710
+204,từ đồng âm,W03711
+204,từ ngữ,W03712
+204,từ phải sang trái,W03713
+204,từ trái nghĩa,W03714B
+204,từ trái nghĩa,W03714N
+204,từ trái nghĩa,W03714T
+204,từ trái sang phải,W03715
+204,tự do,W03717B
+204,tự do,W03717N
+204,tự do,W03717T
+204,tự lập,W03719B
+204,tự lập,W03719N
+205,tự lập,W03719T
+205,tự tin,W03720B
+205,tự tin,W03720N
+205,tự tin,W03720T
+205,tự vệ,W03722B
+205,tự vệ,W03722N
+205,tự vệ,W03722T
+205,tươi cười,W03725
+205,tưới cây,W03727B
+205,tưới cây,W03727N
+205,tưới cây,W03727T
+205,nước tương (xì dầu),W03728
+205,tương ứng,W03729
+205,tưởng,W03730
+205,tưởng tượng,W03732
+205,tưởng tượng,W03732B
+205,tưởng tượng,W03732N
+205,tưởng tượng,W03732T
+205,tượng,W03734
+205,tượng đài,W03735
+206,u ám ( trời u ám),W03738
+206,ung dung,W03740
+206,ủng,W03741
+206,ủng hộ,W03742
+206,UNICEF,W03744
+206,uốn,W03745
+206,uốn cong,W03746
+206,uốn dẻo,W03747
+206,uốn tóc,W03748
+206,úp,W03749
+206,ủy ban,W03750
+206,ủy ban nhân dân,W037511
+206,ủy quyền,W03751B
+206,ủy quyền,W03751N
+206,ủy quyền,W03751T
+206,ức chế,W03752
+206,ưu điểm,W03757
+206,ưu tiên,W03758B
+206,ưu tiên,W03758N
+206,ưu tiên,W03758T
+207,va chạm,W03759
+207,va li,W03761
+207,vác,W03762
+207,vạch trần,W03765
+207,vạch xuất phát,W03766
+207,vai,W03767
+207,vai trò,W03768
+207,vái lạy,W03770
+207,vái tứ phương,W03771
+207,vạm vỡ,W03773
+207,vàng (kim loại),W03777
+207,vàng bạc,W03778
+207,vào,W03780
+207,vào lớp,W03781
+207,vào mùa,W03782
+207,vào mùa,W03782B
+207,vá xe,W03784
+207,vạt áo,W03785
+207,văn,W03786
+207,văn bản,W03787
+208,Văn miếu Quốc Tử Giám,W03791
+208,văn nghệ,W03793B
+208,văn nghệ,W03793N
+208,văn nghệ,W03793T
+208,vắn tắt,W03794
+208,vắng,W03795B
+208,vắng,W03795N
+208,vắng,W03795T
+208,vắng lặng,W03796
+208,vắt cam,W03797
+208,vấn đề,W03799B
+208,vấn đề,W03799N
+208,vấn đề,W03799T
+208,vận chuyển,W03800
+208,vận động,W03801
+208,vận tốc,W03804
+208,vầng trăng,W03805N
+208,vầng trăng,W03805T
+208,vật,W03806
+208,vật nuôi,W03809B
+209,vật nuôi,W03809N
+209,vật nuôi,W03809T
+209,vây bắt,W03810
+209,vẫy tay,W03812
+209,vẫy vùng (cá),W03813
+209,vé,W03814
+209,vệ sinh cá nhân,W03819
+209,vênh váo,W03820
+209,vết thương,W03821
+209,vi khuẩn,W03823
+209,vì sao?,W03825B
+209,vì sao?,W03825N
+209,vì sao?,W03825T
+209,vĩ cầm,W03826
+209,vĩ đại,W03827
+209,ví dụ,W03828B
+209,ví dụ,W03828N
+209,ví dụ,W03828T
+209,vị ngữ,W03829
+209,vị trí,W03832
+210,việc làm,W03835
+210,viện bảo tàng,W03840
+210,viện nghiên cứu,W03841
+210,viết lia lịa,W03842
+210,Vĩnh Long,W03846
+210,Vĩnh Phúc,W03847
+210,vịnh,W03848
+210,vịnh Hạ Long,W03849
+210,Võ Nguyên Giáp,W03851
+210,vòi voi,W03852
+210,vòng đeo tay,W03853
+210,vòng quanh Trái Đất,W03854
+210,vỏ,W03855
+210,võ thuật,W03856
+210,vòi nước,W03858
+210,mái vòm,W03859
+210,vòm lá,W03860
+210,vòng cung,W03861
+210,vòng đời,W03862
+210,vòng tròn,W03863
+211,võng (cái võng),W03864
+211,nhiều vô cùng,W03865
+211,vô lí,W03866
+211,vô lo vô nghĩ,W03867
+211,vô tâm,W03868
+211,xa vô tận,W03869
+211,vô tư,W03870
+211,vô ý,W03871
+211,vô ý thức,W03872
+211,vồ,W03873
+211,vỗ cánh,W03875
+211,vỗ tay,W03876
+211,vội vã,W03878
+211,vở chèo,W03881
+211,vỡ,W03882
+211,vỡ lòng,W03883
+211,vớt,W03884
+211,vũ công,W03885
+211,vũ trụ,W03886
+211,vua Hùng,W03887
+212,vui chơi,W03888B
+212,vui chơi,W03888N
+212,vui chơi,W03888T
+212,vui mừng,W03889B
+212,vui mừng,W03889N
+212,vui mừng,W03889T
+212,vui sướng,W03890B
+212,vui sướng,W03890N
+212,vui sướng,W03890T
+212,vui tính,W03892
+212,vun đắp,W03894
+212,vùng vẫy (dành cho người),W03903
+212,hình vuông,W03908
+212,vuốt tóc,W03909
+212,vuông góc,W03911
+212,vững chắc,W03912
+212,vườn thú,W03917
+212,vượt trội,W03924
+212,xa cách,W03925
+212,xa xôi,W03928
+213,xà phòng,W03930B
+213,xà phòng,W03930N
+213,xà phòng,W03930T
+213,xà phòng giặt,W03931B
+213,xà phòng giặt,W03931N
+213,xà phòng giặt,W03931T
+213,xả rác,W03933
+213,xã hội,W03935B
+213,xã hội,W03935N
+213,xã hội,W03935T
+213,xách túi,W03936
+213,xanh xao,W03938B
+213,xanh xao,W03938N
+213,xanh xao,W03938T
+213,xã,W03939
+213,xác chết,W03940
+213,xác định,W03941
+213,xách nặng,W03943
+213,cây xanh tươi,W03945B
+213,cây xanh tươi,W03945N
+214,cây xanh tươi,W03945T
+214,xăm,W03947
+214,xăng,W03948
+214,xăng-ti-mét (cm),W03949
+214,xăng-ti-mét-khối (cm3),W03950
+214,xăng-ti-mét-vuông (cm2),W03951
+214,xâm lược,W03953
+214,xây,W03956B
+214,xây,W03956N
+214,xây,W03956T
+214,xây nhà,W03958
+214,xe đạp,W03959
+214,xe ben,W03960
+214,xe máy,W03961
+214,xe cảnh sát,W03962B
+214,xe cảnh sát,W03962N
+214,xe cảnh sát,W03962T
+214,xe cứu hỏa,W03964B
+214,xe cứu hỏa,W03964N
+214,xe cứu thương,W03965
+215,xe khách,W03967B
+215,xe khách,W03967N
+215,xe khách,W03967T
+215,xe lam,W03968
+215,xe lu,W03969
+215,xe cẩu,W03971
+215,xé rách,W03973
+215,xem xét,W03974
+215,xen,W03975
+215,xẻng,W03976
+215,xếp,W03978
+215,xếp hàng,W03979
+215,xếp hàng dọc,W03980
+215,xếp hàng ngang,W03981
+215,xếp hàng ưu tiên,W03982
+215,xếp hình,W03983
+215,xích đạo,W03986
+215,xin lỗi,W03990
+215,xinh,W03991
+215,xinh xắn,W03992
+216,xóa bảng,W03993
+216,xoá bỏ,W03995
+216,xoáy,W03996
+216,xóm làng,W03999
+216,xô,W04000
+216,xôi,W04001
+216,xông hơi,W04003
+216,xu (tiền),W04006
+216,tóc dựng đứng,W04007
+216,xuất hiện,W04010B
+216,xuất hiện,W04010N
+216,xuất hiện,W04010T
+216,xuất khẩu,W04011
+216,xúc xắc,W04013
+216,xung đột,W04014
+216,xung phong,W04016
+216,xung quanh nhà,W04017
+216,xuống,W04019
+216,xứ Nghệ,W04023
+216,xưa,W04025B
+217,xưa,W04025N
+217,xưa,W04025T
+217,xương rồng,W04028
+217,Y-Éc-Xanh,W04031
+217,y tế,W04034
+217,ý chí,W04035
+217,ý nghĩa,W04038B
+217,ý nghĩa,W04038N
+217,ý nghĩa,W04038T
+217,ý thức,W04039
+217,ý tưởng,W04040
+217,yếm,W04041
+217,Yên Bái,W04043
+217,yên bình,W04044
+217,yên lòng,W04046
+217,yên tâm,W04048
+217,tôi yêu bạn,W04056B
+217,tôi yêu bạn,W04056N
+217,tôi yêu bạn,W04056T
+217,yêu cầu,W04057B
+218,yêu cầu,W04057N
+218,yêu cầu,W04057T
+218,yêu mến (yêu quí),W04058B
+218,yêu mến (yêu quí),W04058N
+218,yêu mến (yêu quí),W04058T
+218,yếu,W04059B
+218,yếu,W04059N
+218,yếu,W04059T
+218,yếu tố,W04060
+218,công văn,W04061
+218,vá quần áo,W04062
+218,hoan hô,W04063
+218,trả thù,W04065
+218,môn Địa lý,W04066B
+218,môn Địa lý,W04066N
+218,môn Địa lý,W04066T
+218,con trai,W04068
+218,đệm,W04069
+218,gù lưng,W04070
+218,ai bảo,W04071
+219,hãng ô tô,W04072
+219,ngôn ngữ kí hiệu,W04073

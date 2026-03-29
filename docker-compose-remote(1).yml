@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  tokenizer_api:
+    # Điền chính xác tài khoản Docker Hub chứa image bạn đã Push lên (Ví dụ: aduc123/vsl-tokenizer:latest)
+    image: hoangtrungnguyen/vsl-tokenizer:latest
+    container_name: tokenizer_api
+
+    # Chạy kết nối trực tiếp tiếp với mạng của máy gốc, bỏ qua gateway ảo (Chạy ở port 6769 theo cấu hình)
+    network_mode: "host"
+
+    # YÊU CẦU: Máy người kia PHẢI có mạng GPU NVIDIA và cài đặt nvidia-container-toolkit. 
+    # (Nếu người đó chỉ chạy bằng CPU bình thường, hãy XOÁ HOẶC COMMENT LẠI BLOCK "deploy" này)
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+    # Server sẽ tự động bật lại nếu sập hoặc nếu máy tính khởi động lại
+    restart: unless-stopped

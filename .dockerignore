@@ -1,0 +1,32 @@
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Git and version control
+.git/
+.gitignore
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Video files (không cần trong production)
+*.mp4
+*.mov
+*.avi
+*.webm
+
+# Data directories (không cần trong Docker image)
+# output_smplerx/
+videos/
+animations/
+dic/
+
+# Documentation
+README_SMPLX_PIPELINE.md
+
+# Docker
+.dockerignore

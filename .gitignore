@@ -1,0 +1,11 @@
+output_*/
+dic/
+models/models/smplx/SMPLX_NEUTRAL.npz
+models/
+videos/
+GMR/
+dic*/
+*.npz
+*.fbxfbx
+*.pyc
+*.npz
