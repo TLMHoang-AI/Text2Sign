@@ -1,0 +1,17 @@
+REM ==============================================================================
+REM Text-to-Sign Project - Phase 1 Checkpoint
+REM Commands to setup environment and run motion extraction.
+REM ==============================================================================
+
+REM 1. Create Virtual Environment
+REM We use 'env_v1' to avoid permission issues with previous 'venv' or 'mp_env' folders.
+python -m venv env_v1
+
+REM 2. Install Dependencies
+REM Using specific MediaPipe version 0.10.9 which is stable for Windows.
+REM Using full path to python executable in the venv to ensure correct pip usage.
+env_v1\Scripts\python -m pip install mediapipe==0.10.9 opencv-python
+
+REM 3. Run Extraction Script
+REM This script reads 'dic\D0001B.webm' and outputs 'workspace\motion_data.json'
+env_v1\Scripts\python workspace\extract_motion.py
