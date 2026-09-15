@@ -1,3 +1,50 @@
+# Raw video, animation assets, model weights, and archives
+*.mp4
+*.webm
+*.avi
+*.mov
+*.fbx
+*.blend
+*.npz
+*.pt
+*.pth
+*.pth.tar
+*.bin
+*.safetensors
+*.zip
+*.tar
+*.tar.gz
+
+# SMPLer-X inputs, downloaded weights, and generated results
+Smpler_X/input_mp4_full/
+Smpler_X/input_part_*/
+Smpler_X/videos/
+Smpler_X/demo/videos/
+Smpler_X/pretrained_models/
+Smpler_X/output/
+Smpler_X/output_smplerx/
+Smpler_X/smplx_output_*/
+
+# Text2Sign downloaded models and generated media/results
+Text2Sign/models/
+Text2Sign/text2gloss/models/
+Text2Sign/text2gloss/vsl-mbart-50/
+Text2Sign/tokenizer/models/
+Text2Sign/videos/
+Text2Sign/rendered_signs/
+Text2Sign/output_*/
+Text2Sign/smplx_output_*/
+Text2Sign/workspace/motion_data.json
+
+# Retargeting inputs and generated FBX/AMASS output
+Text2Sign-duy_test_rokoko2/models/
+Text2Sign-duy_test_rokoko2/output_*/
+Text2Sign-duy_test_rokoko2/fbxviewer/fbx_only_backend/amass_output/
+Text2Sign-duy_test_rokoko2/fbxviewer/fbx_only_backend/xbot_retargeted/
+Text2Sign-duy_test_rokoko2/fbxviewer/fbx_only_backend/*.db
+
+# Keep expected data-directory layout with force-added .gitkeep files.
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

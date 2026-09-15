@@ -1,0 +1,58 @@
+# ============================================================
+#  SMPLer-X  —  Docker Compose
+# ============================================================
+#
+#  Quick-start:
+#
+#    # dùng model mặc định (smpler_x_h32):
+#    VIDEOS_FOLDER=/path/to/videos OUTPUT_DIR=./output_smplerx \
+#    docker compose run --rm smplerx --videos_folder /videos --demo_results_root /output --fps 30
+#
+#    # chọn model nhỏ hơn để test nhanh (smpler_x_s32):
+#    VIDEOS_FOLDER=/path/to/videos PRETRAINED_MODEL=smpler_x_s32 \
+#    docker compose run --rm smplerx --videos_folder /videos --demo_results_root /output --fps 30
+#
+# ============================================================
+# Dùng với mỗi docker thì như thế này
+# docker run --rm \
+#     --gpus all \
+#     -e PYOPENGL_PLATFORM=egl \
+#     -e NVIDIA_VISIBLE_DEVICES=all \
+#     -e NVIDIA_DRIVER_CAPABILITIES=compute,utility,graphics \
+#     -e PRETRAINED_MODEL=smpler_x_s32 \
+#     -v ./pretrained_models:/workspace/SMPLer-X/pretrained_models:ro \
+#     -v /home/duylearch/Documents/Text2Sign/dic_mp4/input_part_1:/videos:ro \
+#     -v /home/duylearch/output_smplerx:/output \
+#     smplerx:latest \
+#     --videos_folder /videos \
+#     --demo_results_root /output \
+#     --fps 30
+services:
+  smplerx:
+    image: aduy2408/smpler_x:latest
+    # ── GPU access ────────────────────────────────────────────
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]
+    ports:
+      - "8036:8036"
+    # ── Environment ───────────────────────────────────────────
+    environment:
+      - PYOPENGL_PLATFORM=egl
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility,graphics
+      # Chọn model: smpler_x_s32 / smpler_x_b32 / smpler_x_l32 / smpler_x_h32
+      # Mặc định là smpler_x_h32 nếu không sets
+      - PRETRAINED_MODEL=${PRETRAINED_MODEL:-smpler_x_s32}
+    # ── Volumes ───────────────────────────────────────────────
+    volumes:
+      # Pretrained model weights (read-only — too large to bake into image)
+      - ./pretrained_models:/workspace/SMPLer-X/pretrained_models:ro
+      # Input videos folder  (override VIDEOS_FOLDER env var)
+      - ${VIDEOS_FOLDER:-./demo/videos}:/videos:ro
+      # Output .npz files
+      - ${OUTPUT_DIR:-./output_smplerx}:/output

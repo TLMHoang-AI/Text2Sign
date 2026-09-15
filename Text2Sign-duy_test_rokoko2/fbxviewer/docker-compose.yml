@@ -1,0 +1,121 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15
+    container_name: fbxviewer_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: fbxviewer
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7
+    container_name: fbxviewer_redis
+    ports:
+      - "6380:6379"
+    volumes:
+      - redisdata:/data
+
+  backend:
+    image: aduy2408/text2sign_backend:latest
+    # build:
+    #   context: ./fbx_only_backend
+    #   dockerfile: Dockerfile
+    container_name: fbxviewer_backend
+    ports:
+      - "8000:8000"
+    volumes:
+      # Optional: bind mount output directory if you want to access generated files from host
+      - ./fbx_only_backend/xbot_retargeted:/app/xbot_retargeted
+      - ../output_smplerx:/output_smplerx
+      - ../models:/models
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://postgres:postgres@db:5432/fbxviewer
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - TRANSLATE_API_URL=${TRANSLATE_API_URL:-http://host.docker.internal:8001/translate}
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    # Enable internal host networking slightly easier
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  celery_worker:
+    image: aduy2408/text2sign_backend:latest
+    # build:
+    #   context: ./fbx_only_backend
+    #   dockerfile: Dockerfile
+    container_name: fbxviewer_celery_worker
+    command: celery -A api.celery_app worker --loglevel=info --concurrency=2 -Q celery
+    volumes:
+      - ./fbx_only_backend/xbot_retargeted:/app/xbot_retargeted
+      - ../output_smplerx:/output_smplerx
+      - ../models:/models
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://postgres:postgres@db:5432/fbxviewer
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - TRANSLATE_API_URL=${TRANSLATE_API_URL:-http://host.docker.internal:8001/translate}
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: fbxviewer_prometheus
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+    depends_on:
+      - backend
+
+  node_exporter:
+    image: prom/node-exporter:latest
+    container_name: fbxviewer_node_exporter
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    command:
+      - '--path.procfs=/host/proc'
+      - '--path.rootfs=/rootfs'
+      - '--path.sysfs=/host/sys'
+      - '--collector.filesystem.mount-points-exclude=^/(sys|proc|dev|host|etc)($$|/)'
+    ports:
+      - "9100:9100"
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: fbxviewer_grafana
+    ports:
+      - "3001:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_USERS_ALLOW_SIGN_UP=false
+    volumes:
+      - ./grafana/provisioning/datasources:/etc/grafana/provisioning/datasources
+      - ./grafana/provisioning/dashboards:/etc/grafana/provisioning/dashboards
+    depends_on:
+      - prometheus
+
+volumes:
+  pgdata:
+  redisdata:
