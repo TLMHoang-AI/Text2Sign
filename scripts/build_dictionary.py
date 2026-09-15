@@ -34,6 +34,12 @@ def create_filtered_dictionary(csv_path, output_csv="dictionary_data_B.csv", out
 
     custom_map = {}
 
+    def add_to_map(key, canonical):
+        if not key: return
+        key = key.strip().lower()
+        if key and key not in custom_map:
+            custom_map[key] = canonical
+
     for text_entry, row in df_filtered.iterrows():
         original_phrase = str(text_entry)
         canonical = original_phrase
@@ -57,14 +63,12 @@ def create_filtered_dictionary(csv_path, output_csv="dictionary_data_B.csv", out
         if clean_phrase:
             add_to_map(clean_phrase, canonical)
                 
-        # Handle the inside of parentheses (e.g., "Mi-an-ma", "nước Bra-xin")
+        # Handle the inside of parentheses (e.g., "Mi-an-ma", "nước Bra-xin", "giống: mạnh dạn")
         if len(parens) == 1:
             inside = parens[0].strip()
-            add_to_map(inside, canonical)
-            # If it contains "nước ", "tỉnh ", etc., also map the name only
-            core_name = re.sub(r'^(nước|tỉnh|huyện|xã|thành phố)\s+', '', inside, flags=re.IGNORECASE)
-            if core_name != inside:
-                add_to_map(core_name, canonical)
+            # Strip prefixes like "nước ", "tỉnh ", "giống: ", "như: ", etc.
+            clean_inside = re.sub(r'^(nước|tỉnh|huyện|xã|thành phố|giống:|như:)\s+', '', inside, flags=re.IGNORECASE)
+            add_to_map(clean_inside, canonical)
 
         # 3. Handle specific holiday/event core phrases
         date_pattern = re.search(r'^ngày\s+(.*?)\s+\d+/\d+', original_phrase, re.IGNORECASE)

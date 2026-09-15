@@ -1,8 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
 venv/
-dic/
-mp_env/
-*.webm
-env_v1/     
-*.mp4
-*.csv
-*.json
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Models and large runtime assets
+models/*
+!models/.gitkeep
+pretrained_models/
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+
+# Generated motion / media outputs
+outputs/*
+!outputs/.gitkeep
+output_smplerx/
+xbot_retargeted/
+*.npz
+*.blend
+motion_data.json
+
+# Input datasets / videos
+input_mp4_full/
+input_part_*/
+videos/
+
+# Logs / task state
+*.log
+celerybeat-schedule

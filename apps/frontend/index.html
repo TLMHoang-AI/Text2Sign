@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Text2Sign – Animation Viewer</title>
+  <meta name="description"
+    content="3D character animation viewer for Text2Sign sign language project. View, play, pause and rotate retargeted FBX animations." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=20260315" />
+</head>
+
+<body>
+
+  <!-- ── Header ───────────────────────────────────────── -->
+  <header class="header">
+    <div class="logo">
+      <button id="toggleSidebarBtn" class="icon-btn"
+        style="margin-right: 8px; border: none; background: transparent; width: 30px; height: 30px;"
+        title="Toggle Sidebar">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+      <img src="logo.png" alt="Text2Sign logo" class="logo-img" width="24" height="24" />
+      <span>Text2Sign</span>
+    </div>
+    <div class="header-right">
+      <span id="fpsCounter" class="badge">-- FPS</span>
+      <button id="fullscreenBtn" class="icon-btn" title="Fullscreen">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3" />
+        </svg>
+      </button>
+      <button id="authBtn" class="btn btn-primary btn-sm">LOGIN</button>
+    </div>
+  </header>
+
+  <!-- ── Main Layout ──────────────────────────────────── -->
+  <main class="layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar collapsed">
+
+
+      <!-- Text to Animation -->
+      <section class="panel">
+        <h3 class="panel-title">Create handsign animations</h3>
+        <textarea id="aiInputText" class="sidebar-textarea" placeholder="Nhập câu/từ tiếng Việt..."></textarea>
+        <button id="submitTextBtn" class="btn btn-primary" style="width: 100%; margin-top: 8px;">CREATE
+          ANIMATIONS</button>
+      </section>
+
+      <!-- History Section -->
+      <section id="historySection" class="panel hidden">
+        <h3 class="panel-title">History</h3>
+        <div id="historyList" class="history-list">
+          <!-- History items will be injected here -->
+          <p class="text-muted" style="font-size: 12px; text-align: center;">No history yet.</p>
+        </div>
+        <button id="viewAllHistoryBtn" class="btn btn-sm btn-link" style="width: 100%; margin-top: 5px; font-size: 12px; display: none;">View All History →</button>
+      </section>
+
+      <!-- Rotation Controls -->
+      <section class="panel">
+        <h3 class="panel-title">Rotation</h3>
+
+        <div class="control-row">
+          <label class="control-label">Auto Rotate</label>
+          <label class="toggle">
+            <input type="checkbox" id="autoRotate" />
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+
+        <div class="control-row">
+          <label class="control-label">Speed</label>
+          <input type="range" id="rotateSpeed" min="0.1" max="5" step="0.1" value="1" class="slider" />
+          <span class="slider-val" id="rotateSpeedVal">1.0</span>
+        </div>
+
+        <div class="control-row">
+          <label class="control-label">Reset Camera</label>
+          <button class="btn btn-sm" id="resetCameraBtn">Reset</button>
+        </div>
+      </section>
+
+      <!-- Display Controls -->
+      <section class="panel">
+        <h3 class="panel-title">Display</h3>
+        <div class="control-row">
+          <label class="control-label">Show Grid</label>
+          <label class="toggle">
+            <input type="checkbox" id="showGrid" checked />
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+        <div class="control-row">
+          <label class="control-label">Show Skeleton</label>
+          <label class="toggle">
+            <input type="checkbox" id="showSkeleton" />
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+        <div class="control-row">
+          <label class="control-label">Background</label>
+          <input type="color" id="bgColor" value="#0f0f1a" class="color-picker" />
+        </div>
+      </section>
+
+      <!-- Help -->
+      <section class="panel help-panel">
+        <h3 class="panel-title">Controls</h3>
+        <ul class="help-list">
+          <li><kbd>Drag</kbd> Xoay nhân vật</li>
+          <li><kbd>Scroll</kbd> Zoom in / out</li>
+          <li><kbd>Right drag</kbd> Pan</li>
+          <li><kbd>Space</kbd> Play / Pause</li>
+          <li><kbd>R</kbd> Reset camera</li>
+        </ul>
+      </section>
+
+      <!-- User Profile (Logged in only) - Moved to bottom -->
+      <div id="userProfile" class="user-profile hidden">
+        <img src="logo.png" alt="User" width="32" height="32" style="border-radius: 50%;">
+        <div class="user-info-stacked">
+          <span id="userNameDisplay" class="user-name">Username</span>
+          <button id="logoutBtn" class="btn btn-logout btn-sm">Logout</button>
+        </div>
+      </div>
+
+      <!-- Resize handle -->
+      <div id="sidebarResizer" class="resizer"></div>
+    </aside>
+
+    <!-- Viewport -->
+    <div class="viewport-wrapper">
+      <canvas id="viewport"></canvas>
+
+      <!-- Subtitle display -->
+      <div id="subtitleDisplay" class="subtitle-display hidden"></div>
+
+      <!-- Loading overlay -->
+      <div id="loadingOverlay" class="loading-overlay hidden">
+        <div class="loading-spinner"></div>
+        <p class="loading-text">Loading FBX...</p>
+        <div class="loading-bar-wrap">
+          <div id="loadingBar" class="loading-bar"></div>
+        </div>
+      </div>
+
+      <!-- Playback controls (bottom bar) -->
+      <div id="playbackBar" class="playback-bar hidden">
+        <div class="playback-left">
+          <button id="playPauseBtn" class="play-btn" title="Play/Pause (Space)">
+            <svg id="playIcon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="5 3 19 12 5 21 5 3" />
+            </svg>
+            <svg id="pauseIcon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="display:none">
+              <rect x="6" y="4" width="4" height="16" />
+              <rect x="14" y="4" width="4" height="16" />
+            </svg>
+          </button>
+
+          <button id="stopBtn" class="ctrl-btn" title="Stop">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <rect x="3" y="3" width="18" height="18" rx="2" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="timeline-wrap">
+          <span class="time-label" id="currentTime">0:00</span>
+          <input type="range" id="timeline" min="0" max="1" step="0.001" value="0" class="timeline-slider" />
+          <span class="time-label" id="totalTime">0:00</span>
+        </div>
+
+        <div class="playback-right">
+          <label class="control-label" style="font-size:11px">Speed</label>
+          <select id="speedSelect" class="speed-select">
+            <option value="0.25">0.25x</option>
+            <option value="0.5">0.5x</option>
+            <option value="1" selected>1x</option>
+            <option value="1.5">1.5x</option>
+            <option value="2">2x</option>
+          </select>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- AUTH MODAL -->
+  <div id="authModal" class="modal-overlay">
+    <div class="modal-content">
+      <h2 id="modalTitle" class="modal-title">Login</h2>
+      <form id="authForm">
+        <div class="form-group">
+          <label class="form-label">Username</label>
+          <input type="text" id="usernameInput" class="form-input" required placeholder="Enter username">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Password</label>
+          <input type="password" id="passwordInput" class="form-input" required placeholder="Enter password">
+        </div>
+        <div class="modal-footer">
+          <button type="submit" id="authSubmitBtn" class="btn btn-primary">Login</button>
+          <p id="toggleAuthMode" class="toggle-auth">Don't have an account? <span>Signup</span></p>
+          <button type="button" id="closeModalBtn" class="btn btn-sm">Close</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- HISTORY DASHBOARD MODAL -->
+  <div id="historyDashboard" class="modal-overlay dashboard-modal">
+    <div class="modal-content dashboard-content">
+      <div class="modal-header">
+        <h2 class="modal-title">Full Translation History</h2>
+        <button id="closeDashboardBtn" class="icon-btn close-dash">&times;</button>
+      </div>
+      <div class="dashboard-body">
+        <table class="dashboard-table">
+          <thead>
+            <tr>
+              <th>Sentence</th>
+              <th>Status</th>
+              <th>Date</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="dashboardTableBody">
+            <!-- Full history will be injected here -->
+          </tbody>
+        </table>
+        <div id="dashboardEmpty" class="text-muted" style="text-align: center; padding: 40px; display: none;">
+          No history found.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Three.js (importmap) -->
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.162.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.162.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module" src="main.js?v=20260315"></script>
+</body>
+
+</html>
