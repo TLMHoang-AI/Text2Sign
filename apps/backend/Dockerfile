@@ -1,53 +1,25 @@
-FROM python:3.10-slim
+# Reuse the team's known-good backend runtime image. It already contains
+# Blender 4.2.x and Rokoko Studio Live 1.4.3, which are required by the
+# retargeting script. Our source code is copied on top so this repository is
+# the canonical application source.
+FROM aduy2408/text2sign_backend:latest
 
-# Install system dependencies for Blender headless
-RUN apt-get update && apt-get install -y \
-    wget \
-    xz-utils \
-    libgl1 \
-    libxi6 \
-    libxrender1 \
-    libxkbcommon0 \
-    libsm6 \
-    libxext6 \
-    libx11-6 \
-    libxxf86vm1 \
-    libxfixes3 \
-    && rm -rf /var/lib/apt/lists/*
-
-# Download and install Blender 4.2.8 Linux x64 (LTS)
-# Using a reliable mirror or official download link
-WORKDIR /usr/local
-RUN wget -q https://download.blender.org/release/Blender4.2/blender-4.2.8-linux-x64.tar.xz \
-    && tar -xf blender-4.2.8-linux-x64.tar.xz \
-    && rm blender-4.2.8-linux-x64.tar.xz \
-    && mv blender-4.2.8-linux-x64 blender
-
-ENV BLENDER_BIN=/usr/local/blender/blender
-
-# Set up working directory for the app
 WORKDIR /app
 
-# Install Rokoko Studio Live Blender Addon
-# We copy the zip file directly and let Blender install it
-COPY rokoko-studio-live-blender-1-4-3.zip /tmp/rokoko.zip
-RUN echo "import bpy; bpy.ops.preferences.addon_install(filepath='/tmp/rokoko.zip'); bpy.ops.preferences.addon_enable(module='rokoko-studio-live-blender-1-4-3'); bpy.ops.wm.save_userpref()" > /tmp/install_addon.py \
-    && ${BLENDER_BIN} -b -P /tmp/install_addon.py \
-    && rm /tmp/rokoko.zip /tmp/install_addon.py
+COPY apps/backend/requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir -r /app/requirements.txt
 
-# Install Python requirements
-COPY requirements_api.txt .
-RUN pip install --no-cache-dir -r requirements_api.txt
+COPY apps/backend/ /app/
+COPY data/dictionaries/dictionary_data.csv /data/dictionaries/dictionary_data.csv
 
-# Copy the rest of the backend codebase
-COPY . .
+ENV TEXT2SIGN_DATA_ROOT=/data/dictionaries \
+    SMPLERX_OUTPUT_DIR=/runtime/smplerx \
+    AMASS_OUTPUT_DIR=/runtime/amass \
+    FBX_OUTPUT_DIR=/runtime/fbx \
+    SMPLX_MODEL_PATH=/models/smplx/SMPLX_NEUTRAL.npz \
+    XBOT_FBX_PATH=/app/XBOTXBOT.fbx
 
-# Copy external data into image
-COPY dictionary_data.csv /dictionary_data.csv
+RUN mkdir -p /runtime/smplerx /runtime/amass /runtime/fbx /models/smplx
 
-
-# Expose backend API port
 EXPOSE 8000
-
-# Run the FastAPI server
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

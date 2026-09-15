@@ -1,0 +1,167 @@
+x-backend-common: &backend-common
+  build:
+    context: .
+    dockerfile: apps/backend/Dockerfile
+  image: text2sign-backend:local
+  environment:
+    DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@db:5432/${POSTGRES_DB:-fbxviewer}
+    REDIS_HOST: redis
+    REDIS_PORT: 6379
+    TRANSLATE_API_URL: http://translator:8001/translate
+    TEXT2SIGN_DATA_ROOT: /data/dictionaries
+    SMPLERX_OUTPUT_DIR: /runtime/smplerx
+    AMASS_OUTPUT_DIR: /runtime/amass
+    FBX_OUTPUT_DIR: /runtime/fbx
+    SMPLX_MODEL_PATH: /models/smplx/SMPLX_NEUTRAL.npz
+    XBOT_FBX_PATH: /app/XBOTXBOT.fbx
+  volumes:
+    - ${MODELS_HOST:-./models}:/models:ro
+    - ${SMPLERX_OUTPUT_HOST:-./runtime/smplerx}:/runtime/smplerx:ro
+    - ${AMASS_OUTPUT_HOST:-./runtime/amass}:/runtime/amass
+    - ${FBX_OUTPUT_HOST:-./runtime/fbx}:/runtime/fbx
+
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-fbxviewer}
+    ports:
+      - "${POSTGRES_PORT:-5433}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-fbxviewer}"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+
+  redis:
+    image: redis:7
+    ports:
+      - "${REDIS_PORT_HOST:-6380}:6379"
+    volumes:
+      - redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+
+  translator:
+    build:
+      context: .
+      dockerfile: services/translator/Dockerfile
+    image: text2sign-translator:local
+    environment:
+      DICTIONARY_PATH: /data/dictionaries/dictionary_data.csv
+      TRANSLATOR_STRICT: ${TRANSLATOR_STRICT:-true}
+    ports:
+      - "${TRANSLATOR_PORT:-8001}:8001"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8001/health', timeout=3).read()"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+
+  backend:
+    <<: *backend-common
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      translator:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/', timeout=3).read()"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+
+  celery_worker:
+    <<: *backend-common
+    command: celery -A api.celery_app worker --loglevel=info --concurrency=2 -Q celery
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      translator:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: .
+      dockerfile: apps/frontend/Dockerfile
+    image: text2sign-frontend:local
+    ports:
+      - "${FRONTEND_PORT:-3000}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+  prometheus:
+    image: prom/prometheus:latest
+    profiles: ["observability"]
+    volumes:
+      - ./infra/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    ports:
+      - "9090:9090"
+    depends_on:
+      - backend
+
+  node_exporter:
+    image: prom/node-exporter:latest
+    profiles: ["observability"]
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    command:
+      - --path.procfs=/host/proc
+      - --path.rootfs=/rootfs
+      - --path.sysfs=/host/sys
+      - --collector.filesystem.mount-points-exclude=^/(sys|proc|dev|host|etc)($$|/)
+    ports:
+      - "9100:9100"
+
+  grafana:
+    image: grafana/grafana:latest
+    profiles: ["observability"]
+    ports:
+      - "3001:3000"
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: admin
+      GF_USERS_ALLOW_SIGN_UP: "false"
+    volumes:
+      - ./infra/grafana/provisioning:/etc/grafana/provisioning:ro
+    depends_on:
+      - prometheus
+
+  smplerx:
+    image: ${SMPLERX_IMAGE:-aduy2408/smpler_x:latest}
+    profiles: ["asset-generation"]
+    environment:
+      PYOPENGL_PLATFORM: egl
+      NVIDIA_VISIBLE_DEVICES: all
+      NVIDIA_DRIVER_CAPABILITIES: compute,utility,graphics
+      PRETRAINED_MODEL: ${PRETRAINED_MODEL:-smpler_x_s32}
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    volumes:
+      - ${SMPLERX_PRETRAINED_HOST:-./services/smplerx/pretrained_models}:/workspace/SMPLer-X/pretrained_models:ro
+      - ${SMPLERX_INPUT_HOST:-./runtime/input_videos}:/videos:ro
+      - ${SMPLERX_OUTPUT_HOST:-./runtime/smplerx}:/output
+
+volumes:
+  pgdata:
+  redisdata:

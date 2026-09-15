@@ -19,17 +19,22 @@ env/
 # Models and large runtime assets
 models/*
 !models/.gitkeep
+services/smplerx/pretrained_models/*
+!services/smplerx/pretrained_models/.gitkeep
 pretrained_models/
 *.pth
 *.pth.tar
 *.pt
 *.ckpt
 
-# Generated motion / media outputs
+# Runtime motion / media assets
+runtime/*
+!runtime/.gitkeep
 outputs/*
 !outputs/.gitkeep
 output_smplerx/
 xbot_retargeted/
+amass_output/
 *.npz
 *.blend
 motion_data.json
