@@ -529,7 +529,21 @@ Private model files and the precomputed sign-motion library are intentionally ex
 
 ## Demo
 
-Demo screenshots, GIFs, and videos will be added here.
+The following examples show generated Text2Sign avatar animations from the team's prototype pipeline.
+
+<figure>
+  <video src="https://github.com/user-attachments/assets/15d8c85d-6f60-43a8-800a-8a6891e9259a" muted controls="controls" style="max-width: 100%;">
+  </video>
+  <figcaption align="center"><i>Hoàng hôn ở cầu Long Biên rất đẹp</i></figcaption>
+</figure>
+
+<br/>
+
+<figure>
+  <video src="https://github.com/user-attachments/assets/32ff701b-5eed-4e8e-8f60-fc5d4fb2ee43" muted controls="controls" style="max-width: 100%;">
+  </video>
+  <figcaption align="center"><i>Chú của bạn đã 40 tuổi</i></figcaption>
+</figure>
 
 ## Future Work
 
