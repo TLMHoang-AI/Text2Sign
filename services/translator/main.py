@@ -7,7 +7,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
 from text2sign.nlp.tokenizer import VnTokenizer
-from resolver import SignResolver
+from services.translator.resolver import SignResolver
 
 DICTIONARY_PATH = Path(
     os.getenv("DICTIONARY_PATH", "/data/dictionaries/dictionary_data.csv")
@@ -71,8 +71,6 @@ def translate(req: TranslateRequest):
             },
         )
 
-    # Keep `videos` compatible with the existing backend contract. Extra fields
-    # are diagnostic and are ignored by the current backend.
     return {
         "videos": videos,
         "tokens": tokens,

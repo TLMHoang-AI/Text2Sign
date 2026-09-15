@@ -6,6 +6,10 @@ FROM aduy2408/text2sign_backend:latest
 
 WORKDIR /app
 
+# Remove the application files baked into the base image while keeping the
+# installed Blender/Rokoko runtime and system dependencies.
+RUN find /app -mindepth 1 -maxdepth 1 -exec rm -rf {} +
+
 COPY apps/backend/requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r /app/requirements.txt
 
