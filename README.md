@@ -76,7 +76,7 @@ Animated FBX avatar
 Three.js web viewer
 ```
 
-The online translation path uses **precomputed sign-motion assets**, so SMPLer-X does not need to run for every text request.
+The online translation path uses **precomputed sign-motion assets**, so [SMPLer-X (Cai et al., 2023)](https://proceedings.neurips.cc/paper_files/paper/2023/hash/2614947a25d7c435bcd56c51958ddcb1-Abstract-Datasets_and_Benchmarks.html) does not need to run for every text request.
 
 ---
 
@@ -188,7 +188,7 @@ Text2Sign separates **motion-asset creation** from **online text translation**.
 
 ### Offline Motion-Asset Generation
 
-Sign-language videos can be processed with SMPLer-X to create reusable motion assets.
+Sign-language videos can be processed with [**SMPLer-X** (Cai et al., 2023)](https://proceedings.neurips.cc/paper_files/paper/2023/hash/2614947a25d7c435bcd56c51958ddcb1-Abstract-Datasets_and_Benchmarks.html) to estimate expressive human pose and shape and create reusable SMPL-X motion assets.
 
 ```text
 Sign video
@@ -370,6 +370,33 @@ Key research and engineering directions include:
 - Improved upper-body dynamics
 - Lower-latency animation generation
 - Support for additional avatar rigs
+
+---
+
+## References
+
+Text2Sign uses **SMPLer-X** in the offline motion-asset generation stage:
+
+- Cai, Z., Yin, W., Cong, W., Zhang, H., Ren, Y., Liu, Z., & Loy, C. C. (2023). **SMPLer-X: Scaling Up Expressive Human Pose and Shape Estimation.** *Advances in Neural Information Processing Systems (NeurIPS 2023), 36*, 30799–30825. [Paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/2614947a25d7c435bcd56c51958ddcb1-Abstract-Datasets_and_Benchmarks.html)
+
+<details>
+<summary>BibTeX</summary>
+
+```bibtex
+@inproceedings{NEURIPS2023_2614947a,
+  author = {Cai, Zhongang and Yin, Wanqi and Cong, Wei and Zhang, Hongwen and Ren, Yiming and Liu, Ziwei and Loy, Chen Change},
+  booktitle = {Advances in Neural Information Processing Systems},
+  editor = {A. Oh and T. Neumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
+  pages = {30799--30825},
+  publisher = {Curran Associates, Inc.},
+  title = {SMPLer-X: Scaling Up Expressive Human Pose and Shape Estimation},
+  url = {https://proceedings.neurips.cc/paper_files/paper/2023/hash/2614947a25d7c435bcd56c51958ddcb1-Abstract-Datasets_and_Benchmarks.html},
+  volume = {36},
+  year = {2023}
+}
+```
+
+</details>
 
 ---
 
