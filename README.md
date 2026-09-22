@@ -12,7 +12,9 @@ Rather than treating sign language as a simple word-to-video lookup problem, the
 
 ## Demo
 
-The following examples show generated avatar animations from the team's Text2Sign prototype pipeline.
+The following examples show generated avatar animations from the team's Text2Sign prototype pipeline. The corresponding sample sign videos are now included in the repository so the demo inputs remain traceable alongside the implementation.
+
+### Example 1 — Cầu Long Biên
 
 <figure>
   <video src="https://github.com/user-attachments/assets/15d8c85d-6f60-43a8-800a-8a6891e9259a" muted controls="controls" style="max-width: 100%;">
@@ -20,13 +22,19 @@ The following examples show generated avatar animations from the team's Text2Sig
   <figcaption align="center"><i>“Hoàng hôn ở cầu Long Biên rất đẹp”</i></figcaption>
 </figure>
 
-<br/>
+**Sample video:** [`data/dictionaries/caulongbien.mp4`](data/dictionaries/caulongbien.mp4)
+
+### Example 2 — Chú của bạn
 
 <figure>
   <video src="https://github.com/user-attachments/assets/32ff701b-5eed-4e8e-8f60-fc5d4fb2ee43" muted controls="controls" style="max-width: 100%;">
   </video>
   <figcaption align="center"><i>“Chú của bạn đã 40 tuổi”</i></figcaption>
 </figure>
+
+**Sample video:** [`data/dictionaries/chuacuaban.mp4`](data/dictionaries/chuacuaban.mp4)
+
+These two files are small public examples from the dictionary/video side of the pipeline. They are not the complete sign-video or precomputed motion library used by the full system.
 
 ---
 
@@ -281,7 +289,10 @@ Text2Sign/
 │   └── smplerx/               # Offline motion-asset generation service
 │
 ├── data/
-│   └── dictionaries/          # Sign dictionary metadata
+│   └── dictionaries/
+│       ├── dictionary_data.csv   # Sign dictionary metadata
+│       ├── caulongbien.mp4       # Public demo sign video
+│       └── chuacuaban.mp4        # Public demo sign video
 │
 ├── runtime/
 │   ├── smplerx/               # Precomputed sign motions
@@ -314,11 +325,13 @@ Text2Sign/
 
 The source code is public, while several runtime assets are intentionally kept outside the repository.
 
+Two small sign-video examples used in the README demo are included under `data/dictionaries/`. The complete video/motion collection is still kept outside the public repository.
+
 Not distributed through Git:
 
 - SMPL-X body model files
 - SMPLer-X pretrained weights
-- Full precomputed sign-motion library
+- Full sign-video and precomputed sign-motion libraries
 - Other private or licensed model assets
 
 The application expects authorized users to provide these assets locally. This separation keeps the repository focused on the implementation while avoiding redistribution of large, private, or separately licensed model files.
